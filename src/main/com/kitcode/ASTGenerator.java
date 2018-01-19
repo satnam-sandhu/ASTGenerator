@@ -1,28 +1,37 @@
 package com.kitcode;
 
 import antlr.*;
-import org.antlr.v4.runtime.*;
+import java.io.File;
+import java.io.IOException;
+
+import java.nio.charset.Charset;
+import java.nio.file.Files;
+
+import org.antlr.v4.runtime.ANTLRInputStream;
+import org.antlr.v4.runtime.CommonTokenStream;
+import org.antlr.v4.runtime.ParserRuleContext;
+import org.antlr.v4.runtime.RuleContext;
 import org.antlr.v4.runtime.tree.ParseTree;
 
 public class ASTGenerator{
-    public static void main(String args[]) {
-        String input = "public class HelloWord {" +
-            "public void print(String r){" +
-            "for(int i = 0;true;i+=2)" +
-            "System.out.println(r);" +
-            "}" +
-            "}";
+    
+    public static String readFile() throws IOException{
+        File file = new File("resource/java/Blabla.java");
+        byte[] encoded = Files.readAllBytes(file.toPath());
+        return new String(encoded, Charset.forName("UTF-8"));
+    }
+    
+    public static void main(String args[]) throws IOException {
+        String input = readFile();
 	Java8Lexer lexer = new Java8Lexer(new ANTLRInputStream(input));
 	CommonTokenStream tokens = new CommonTokenStream(lexer);
 	Java8Parser parser = new Java8Parser(tokens);
         ParserRuleContext ctx = parser.classDeclaration();
         
-        explore(ctx, false, 0);
-        
-        System.out.println("I am working fine!");
+        printAST(ctx, false, 0);
     }
     
-    private static void explore(RuleContext ctx, boolean verbose, int indentation) {
+    private static void printAST(RuleContext ctx, boolean verbose, int indentation) {
         boolean toBeIgnored = !verbose && ctx.getChildCount() == 1
                 && ctx.getChild(0) instanceof ParserRuleContext;
         if (!toBeIgnored) {
@@ -35,7 +44,7 @@ public class ASTGenerator{
         for (int i=0;i<ctx.getChildCount();i++) {
             ParseTree element = ctx.getChild(i);
             if (element instanceof RuleContext) {
-                explore((RuleContext)element, verbose, indentation + (toBeIgnored ? 0 : 1));
+                printAST((RuleContext)element, verbose, indentation + (toBeIgnored ? 0 : 1));
             }
         }
     }
