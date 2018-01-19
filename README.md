@@ -10,17 +10,17 @@ Sample Java AST built using ANTLR v4
 Once you got java and gradle installed and running
 Clone this repository:
 ```
-git clone git@github.com:satnam-sandhu/ASTGenerator.git
+$ git clone git@github.com:satnam-sandhu/ASTGenerator.git
 ```
 Build and run the ASTGenerator at once:
 ```
-gradle runJar
+$ gradle runJar
 ```
 
 or you can run it manually:
 
 ```
-java -jar build/libs/ASTGenerator.jar
+$ java -jar build/libs/ASTGenerator.jar
 ```
 File `Blabla.java` present in resource directory's AST will be printed:
 
