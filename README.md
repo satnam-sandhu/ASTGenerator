@@ -63,7 +63,7 @@ normalClassDeclaration classexample{publicstaticvoidprint(inta){intb=a+1;System.
             methodName print
             literal 15
 ```
-Change the the content of `Blabla.java`  to generate your own AST.
+Change the content of `Blabla.java`  to generate your own AST.
 
 ## Grammar
 
