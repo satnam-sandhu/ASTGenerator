@@ -39,7 +39,7 @@ public class ASTGenerator{
             for (int i = 0; i < indentation; i++) {
                 System.out.print("  ");
             }
-            System.out.println(ruleName + " " + ctx.getText());
+            System.out.println(ruleName + " -> " + ctx.getText());
         }
         for (int i=0;i<ctx.getChildCount();i++) {
             ParseTree element = ctx.getChild(i);
