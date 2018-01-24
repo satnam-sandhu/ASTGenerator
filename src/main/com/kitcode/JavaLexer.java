@@ -1,4 +1,4 @@
-// $ANTLR 3.4 src/main/com/kitcode/Java.g 2018-01-24 16:54:52
+// $ANTLR 3.4 Java.g 2018-01-24 17:03:53
 
 import org.antlr.runtime.*;
 import java.util.Stack;
@@ -136,15 +136,15 @@ public class JavaLexer extends Lexer {
     public JavaLexer(CharStream input, RecognizerSharedState state) {
         super(input,state);
     }
-    public String getGrammarFileName() { return "src/main/com/kitcode/Java.g"; }
+    public String getGrammarFileName() { return "Java.g"; }
 
     // $ANTLR start "T__25"
     public final void mT__25() throws RecognitionException {
         try {
             int _type = T__25;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:7:7: ( '!' )
-            // src/main/com/kitcode/Java.g:7:9: '!'
+            // Java.g:7:7: ( '!' )
+            // Java.g:7:9: '!'
             {
             match('!'); 
 
@@ -164,8 +164,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__26;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:8:7: ( '!=' )
-            // src/main/com/kitcode/Java.g:8:9: '!='
+            // Java.g:8:7: ( '!=' )
+            // Java.g:8:9: '!='
             {
             match("!="); 
 
@@ -187,8 +187,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__27;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:9:7: ( '%' )
-            // src/main/com/kitcode/Java.g:9:9: '%'
+            // Java.g:9:7: ( '%' )
+            // Java.g:9:9: '%'
             {
             match('%'); 
 
@@ -208,8 +208,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__28;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:10:7: ( '%=' )
-            // src/main/com/kitcode/Java.g:10:9: '%='
+            // Java.g:10:7: ( '%=' )
+            // Java.g:10:9: '%='
             {
             match("%="); 
 
@@ -231,8 +231,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__29;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:11:7: ( '&&' )
-            // src/main/com/kitcode/Java.g:11:9: '&&'
+            // Java.g:11:7: ( '&&' )
+            // Java.g:11:9: '&&'
             {
             match("&&"); 
 
@@ -254,8 +254,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__30;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:12:7: ( '&' )
-            // src/main/com/kitcode/Java.g:12:9: '&'
+            // Java.g:12:7: ( '&' )
+            // Java.g:12:9: '&'
             {
             match('&'); 
 
@@ -275,8 +275,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__31;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:13:7: ( '&=' )
-            // src/main/com/kitcode/Java.g:13:9: '&='
+            // Java.g:13:7: ( '&=' )
+            // Java.g:13:9: '&='
             {
             match("&="); 
 
@@ -298,8 +298,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__32;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:14:7: ( '(' )
-            // src/main/com/kitcode/Java.g:14:9: '('
+            // Java.g:14:7: ( '(' )
+            // Java.g:14:9: '('
             {
             match('('); 
 
@@ -319,8 +319,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__33;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:15:7: ( ')' )
-            // src/main/com/kitcode/Java.g:15:9: ')'
+            // Java.g:15:7: ( ')' )
+            // Java.g:15:9: ')'
             {
             match(')'); 
 
@@ -340,8 +340,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__34;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:16:7: ( '*' )
-            // src/main/com/kitcode/Java.g:16:9: '*'
+            // Java.g:16:7: ( '*' )
+            // Java.g:16:9: '*'
             {
             match('*'); 
 
@@ -361,8 +361,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__35;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:17:7: ( '*=' )
-            // src/main/com/kitcode/Java.g:17:9: '*='
+            // Java.g:17:7: ( '*=' )
+            // Java.g:17:9: '*='
             {
             match("*="); 
 
@@ -384,8 +384,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__36;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:18:7: ( '+' )
-            // src/main/com/kitcode/Java.g:18:9: '+'
+            // Java.g:18:7: ( '+' )
+            // Java.g:18:9: '+'
             {
             match('+'); 
 
@@ -405,8 +405,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__37;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:19:7: ( '++' )
-            // src/main/com/kitcode/Java.g:19:9: '++'
+            // Java.g:19:7: ( '++' )
+            // Java.g:19:9: '++'
             {
             match("++"); 
 
@@ -428,8 +428,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__38;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:20:7: ( '+=' )
-            // src/main/com/kitcode/Java.g:20:9: '+='
+            // Java.g:20:7: ( '+=' )
+            // Java.g:20:9: '+='
             {
             match("+="); 
 
@@ -451,8 +451,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__39;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:21:7: ( ',' )
-            // src/main/com/kitcode/Java.g:21:9: ','
+            // Java.g:21:7: ( ',' )
+            // Java.g:21:9: ','
             {
             match(','); 
 
@@ -472,8 +472,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__40;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:22:7: ( '-' )
-            // src/main/com/kitcode/Java.g:22:9: '-'
+            // Java.g:22:7: ( '-' )
+            // Java.g:22:9: '-'
             {
             match('-'); 
 
@@ -493,8 +493,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__41;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:23:7: ( '--' )
-            // src/main/com/kitcode/Java.g:23:9: '--'
+            // Java.g:23:7: ( '--' )
+            // Java.g:23:9: '--'
             {
             match("--"); 
 
@@ -516,8 +516,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__42;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:24:7: ( '-=' )
-            // src/main/com/kitcode/Java.g:24:9: '-='
+            // Java.g:24:7: ( '-=' )
+            // Java.g:24:9: '-='
             {
             match("-="); 
 
@@ -539,8 +539,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__43;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:25:7: ( '.' )
-            // src/main/com/kitcode/Java.g:25:9: '.'
+            // Java.g:25:7: ( '.' )
+            // Java.g:25:9: '.'
             {
             match('.'); 
 
@@ -560,8 +560,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__44;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:26:7: ( '...' )
-            // src/main/com/kitcode/Java.g:26:9: '...'
+            // Java.g:26:7: ( '...' )
+            // Java.g:26:9: '...'
             {
             match("..."); 
 
@@ -583,8 +583,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__45;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:27:7: ( '/' )
-            // src/main/com/kitcode/Java.g:27:9: '/'
+            // Java.g:27:7: ( '/' )
+            // Java.g:27:9: '/'
             {
             match('/'); 
 
@@ -604,8 +604,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__46;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:28:7: ( '/=' )
-            // src/main/com/kitcode/Java.g:28:9: '/='
+            // Java.g:28:7: ( '/=' )
+            // Java.g:28:9: '/='
             {
             match("/="); 
 
@@ -627,8 +627,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__47;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:29:7: ( ':' )
-            // src/main/com/kitcode/Java.g:29:9: ':'
+            // Java.g:29:7: ( ':' )
+            // Java.g:29:9: ':'
             {
             match(':'); 
 
@@ -648,8 +648,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__48;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:30:7: ( ';' )
-            // src/main/com/kitcode/Java.g:30:9: ';'
+            // Java.g:30:7: ( ';' )
+            // Java.g:30:9: ';'
             {
             match(';'); 
 
@@ -669,8 +669,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__49;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:31:7: ( '<' )
-            // src/main/com/kitcode/Java.g:31:9: '<'
+            // Java.g:31:7: ( '<' )
+            // Java.g:31:9: '<'
             {
             match('<'); 
 
@@ -690,8 +690,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__50;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:32:7: ( '=' )
-            // src/main/com/kitcode/Java.g:32:9: '='
+            // Java.g:32:7: ( '=' )
+            // Java.g:32:9: '='
             {
             match('='); 
 
@@ -711,8 +711,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__51;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:33:7: ( '==' )
-            // src/main/com/kitcode/Java.g:33:9: '=='
+            // Java.g:33:7: ( '==' )
+            // Java.g:33:9: '=='
             {
             match("=="); 
 
@@ -734,8 +734,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__52;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:34:7: ( '>' )
-            // src/main/com/kitcode/Java.g:34:9: '>'
+            // Java.g:34:7: ( '>' )
+            // Java.g:34:9: '>'
             {
             match('>'); 
 
@@ -755,8 +755,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__53;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:35:7: ( '?' )
-            // src/main/com/kitcode/Java.g:35:9: '?'
+            // Java.g:35:7: ( '?' )
+            // Java.g:35:9: '?'
             {
             match('?'); 
 
@@ -776,8 +776,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__54;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:36:7: ( '@' )
-            // src/main/com/kitcode/Java.g:36:9: '@'
+            // Java.g:36:7: ( '@' )
+            // Java.g:36:9: '@'
             {
             match('@'); 
 
@@ -797,8 +797,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__55;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:37:7: ( '[' )
-            // src/main/com/kitcode/Java.g:37:9: '['
+            // Java.g:37:7: ( '[' )
+            // Java.g:37:9: '['
             {
             match('['); 
 
@@ -818,8 +818,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__56;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:38:7: ( ']' )
-            // src/main/com/kitcode/Java.g:38:9: ']'
+            // Java.g:38:7: ( ']' )
+            // Java.g:38:9: ']'
             {
             match(']'); 
 
@@ -839,8 +839,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__57;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:39:7: ( '^' )
-            // src/main/com/kitcode/Java.g:39:9: '^'
+            // Java.g:39:7: ( '^' )
+            // Java.g:39:9: '^'
             {
             match('^'); 
 
@@ -860,8 +860,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__58;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:40:7: ( '^=' )
-            // src/main/com/kitcode/Java.g:40:9: '^='
+            // Java.g:40:7: ( '^=' )
+            // Java.g:40:9: '^='
             {
             match("^="); 
 
@@ -883,8 +883,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__59;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:41:7: ( 'abstract' )
-            // src/main/com/kitcode/Java.g:41:9: 'abstract'
+            // Java.g:41:7: ( 'abstract' )
+            // Java.g:41:9: 'abstract'
             {
             match("abstract"); 
 
@@ -906,8 +906,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__60;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:42:7: ( 'boolean' )
-            // src/main/com/kitcode/Java.g:42:9: 'boolean'
+            // Java.g:42:7: ( 'boolean' )
+            // Java.g:42:9: 'boolean'
             {
             match("boolean"); 
 
@@ -929,8 +929,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__61;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:43:7: ( 'break' )
-            // src/main/com/kitcode/Java.g:43:9: 'break'
+            // Java.g:43:7: ( 'break' )
+            // Java.g:43:9: 'break'
             {
             match("break"); 
 
@@ -952,8 +952,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__62;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:44:7: ( 'byte' )
-            // src/main/com/kitcode/Java.g:44:9: 'byte'
+            // Java.g:44:7: ( 'byte' )
+            // Java.g:44:9: 'byte'
             {
             match("byte"); 
 
@@ -975,8 +975,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__63;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:45:7: ( 'case' )
-            // src/main/com/kitcode/Java.g:45:9: 'case'
+            // Java.g:45:7: ( 'case' )
+            // Java.g:45:9: 'case'
             {
             match("case"); 
 
@@ -998,8 +998,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__64;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:46:7: ( 'catch' )
-            // src/main/com/kitcode/Java.g:46:9: 'catch'
+            // Java.g:46:7: ( 'catch' )
+            // Java.g:46:9: 'catch'
             {
             match("catch"); 
 
@@ -1021,8 +1021,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__65;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:47:7: ( 'char' )
-            // src/main/com/kitcode/Java.g:47:9: 'char'
+            // Java.g:47:7: ( 'char' )
+            // Java.g:47:9: 'char'
             {
             match("char"); 
 
@@ -1044,8 +1044,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__66;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:48:7: ( 'class' )
-            // src/main/com/kitcode/Java.g:48:9: 'class'
+            // Java.g:48:7: ( 'class' )
+            // Java.g:48:9: 'class'
             {
             match("class"); 
 
@@ -1067,8 +1067,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__67;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:49:7: ( 'continue' )
-            // src/main/com/kitcode/Java.g:49:9: 'continue'
+            // Java.g:49:7: ( 'continue' )
+            // Java.g:49:9: 'continue'
             {
             match("continue"); 
 
@@ -1090,8 +1090,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__68;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:50:7: ( 'default' )
-            // src/main/com/kitcode/Java.g:50:9: 'default'
+            // Java.g:50:7: ( 'default' )
+            // Java.g:50:9: 'default'
             {
             match("default"); 
 
@@ -1113,8 +1113,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__69;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:51:7: ( 'do' )
-            // src/main/com/kitcode/Java.g:51:9: 'do'
+            // Java.g:51:7: ( 'do' )
+            // Java.g:51:9: 'do'
             {
             match("do"); 
 
@@ -1136,8 +1136,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__70;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:52:7: ( 'double' )
-            // src/main/com/kitcode/Java.g:52:9: 'double'
+            // Java.g:52:7: ( 'double' )
+            // Java.g:52:9: 'double'
             {
             match("double"); 
 
@@ -1159,8 +1159,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__71;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:53:7: ( 'else' )
-            // src/main/com/kitcode/Java.g:53:9: 'else'
+            // Java.g:53:7: ( 'else' )
+            // Java.g:53:9: 'else'
             {
             match("else"); 
 
@@ -1182,8 +1182,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__72;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:54:7: ( 'extends' )
-            // src/main/com/kitcode/Java.g:54:9: 'extends'
+            // Java.g:54:7: ( 'extends' )
+            // Java.g:54:9: 'extends'
             {
             match("extends"); 
 
@@ -1205,8 +1205,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__73;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:55:7: ( 'false' )
-            // src/main/com/kitcode/Java.g:55:9: 'false'
+            // Java.g:55:7: ( 'false' )
+            // Java.g:55:9: 'false'
             {
             match("false"); 
 
@@ -1228,8 +1228,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__74;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:56:7: ( 'final' )
-            // src/main/com/kitcode/Java.g:56:9: 'final'
+            // Java.g:56:7: ( 'final' )
+            // Java.g:56:9: 'final'
             {
             match("final"); 
 
@@ -1251,8 +1251,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__75;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:57:7: ( 'finally' )
-            // src/main/com/kitcode/Java.g:57:9: 'finally'
+            // Java.g:57:7: ( 'finally' )
+            // Java.g:57:9: 'finally'
             {
             match("finally"); 
 
@@ -1274,8 +1274,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__76;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:58:7: ( 'float' )
-            // src/main/com/kitcode/Java.g:58:9: 'float'
+            // Java.g:58:7: ( 'float' )
+            // Java.g:58:9: 'float'
             {
             match("float"); 
 
@@ -1297,8 +1297,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__77;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:59:7: ( 'for' )
-            // src/main/com/kitcode/Java.g:59:9: 'for'
+            // Java.g:59:7: ( 'for' )
+            // Java.g:59:9: 'for'
             {
             match("for"); 
 
@@ -1320,8 +1320,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__78;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:60:7: ( 'if' )
-            // src/main/com/kitcode/Java.g:60:9: 'if'
+            // Java.g:60:7: ( 'if' )
+            // Java.g:60:9: 'if'
             {
             match("if"); 
 
@@ -1343,8 +1343,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__79;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:61:7: ( 'implements' )
-            // src/main/com/kitcode/Java.g:61:9: 'implements'
+            // Java.g:61:7: ( 'implements' )
+            // Java.g:61:9: 'implements'
             {
             match("implements"); 
 
@@ -1366,8 +1366,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__80;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:62:7: ( 'import' )
-            // src/main/com/kitcode/Java.g:62:9: 'import'
+            // Java.g:62:7: ( 'import' )
+            // Java.g:62:9: 'import'
             {
             match("import"); 
 
@@ -1389,8 +1389,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__81;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:63:7: ( 'instanceof' )
-            // src/main/com/kitcode/Java.g:63:9: 'instanceof'
+            // Java.g:63:7: ( 'instanceof' )
+            // Java.g:63:9: 'instanceof'
             {
             match("instanceof"); 
 
@@ -1412,8 +1412,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__82;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:64:7: ( 'int' )
-            // src/main/com/kitcode/Java.g:64:9: 'int'
+            // Java.g:64:7: ( 'int' )
+            // Java.g:64:9: 'int'
             {
             match("int"); 
 
@@ -1435,8 +1435,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__83;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:65:7: ( 'interface' )
-            // src/main/com/kitcode/Java.g:65:9: 'interface'
+            // Java.g:65:7: ( 'interface' )
+            // Java.g:65:9: 'interface'
             {
             match("interface"); 
 
@@ -1458,8 +1458,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__84;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:66:7: ( 'long' )
-            // src/main/com/kitcode/Java.g:66:9: 'long'
+            // Java.g:66:7: ( 'long' )
+            // Java.g:66:9: 'long'
             {
             match("long"); 
 
@@ -1481,8 +1481,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__85;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:67:7: ( 'native' )
-            // src/main/com/kitcode/Java.g:67:9: 'native'
+            // Java.g:67:7: ( 'native' )
+            // Java.g:67:9: 'native'
             {
             match("native"); 
 
@@ -1504,8 +1504,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__86;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:68:7: ( 'new' )
-            // src/main/com/kitcode/Java.g:68:9: 'new'
+            // Java.g:68:7: ( 'new' )
+            // Java.g:68:9: 'new'
             {
             match("new"); 
 
@@ -1527,8 +1527,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__87;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:69:7: ( 'null' )
-            // src/main/com/kitcode/Java.g:69:9: 'null'
+            // Java.g:69:7: ( 'null' )
+            // Java.g:69:9: 'null'
             {
             match("null"); 
 
@@ -1550,8 +1550,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__88;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:70:7: ( 'package' )
-            // src/main/com/kitcode/Java.g:70:9: 'package'
+            // Java.g:70:7: ( 'package' )
+            // Java.g:70:9: 'package'
             {
             match("package"); 
 
@@ -1573,8 +1573,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__89;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:71:7: ( 'private' )
-            // src/main/com/kitcode/Java.g:71:9: 'private'
+            // Java.g:71:7: ( 'private' )
+            // Java.g:71:9: 'private'
             {
             match("private"); 
 
@@ -1596,8 +1596,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__90;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:72:7: ( 'protected' )
-            // src/main/com/kitcode/Java.g:72:9: 'protected'
+            // Java.g:72:7: ( 'protected' )
+            // Java.g:72:9: 'protected'
             {
             match("protected"); 
 
@@ -1619,8 +1619,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__91;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:73:7: ( 'public' )
-            // src/main/com/kitcode/Java.g:73:9: 'public'
+            // Java.g:73:7: ( 'public' )
+            // Java.g:73:9: 'public'
             {
             match("public"); 
 
@@ -1642,8 +1642,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__92;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:74:7: ( 'return' )
-            // src/main/com/kitcode/Java.g:74:9: 'return'
+            // Java.g:74:7: ( 'return' )
+            // Java.g:74:9: 'return'
             {
             match("return"); 
 
@@ -1665,8 +1665,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__93;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:75:7: ( 'short' )
-            // src/main/com/kitcode/Java.g:75:9: 'short'
+            // Java.g:75:7: ( 'short' )
+            // Java.g:75:9: 'short'
             {
             match("short"); 
 
@@ -1688,8 +1688,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__94;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:76:7: ( 'static' )
-            // src/main/com/kitcode/Java.g:76:9: 'static'
+            // Java.g:76:7: ( 'static' )
+            // Java.g:76:9: 'static'
             {
             match("static"); 
 
@@ -1711,8 +1711,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__95;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:77:7: ( 'strictfp' )
-            // src/main/com/kitcode/Java.g:77:9: 'strictfp'
+            // Java.g:77:7: ( 'strictfp' )
+            // Java.g:77:9: 'strictfp'
             {
             match("strictfp"); 
 
@@ -1734,8 +1734,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__96;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:78:7: ( 'super' )
-            // src/main/com/kitcode/Java.g:78:9: 'super'
+            // Java.g:78:7: ( 'super' )
+            // Java.g:78:9: 'super'
             {
             match("super"); 
 
@@ -1757,8 +1757,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__97;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:79:7: ( 'switch' )
-            // src/main/com/kitcode/Java.g:79:9: 'switch'
+            // Java.g:79:7: ( 'switch' )
+            // Java.g:79:9: 'switch'
             {
             match("switch"); 
 
@@ -1780,8 +1780,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__98;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:80:7: ( 'synchronized' )
-            // src/main/com/kitcode/Java.g:80:9: 'synchronized'
+            // Java.g:80:7: ( 'synchronized' )
+            // Java.g:80:9: 'synchronized'
             {
             match("synchronized"); 
 
@@ -1803,8 +1803,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__99;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:81:7: ( 'this' )
-            // src/main/com/kitcode/Java.g:81:9: 'this'
+            // Java.g:81:7: ( 'this' )
+            // Java.g:81:9: 'this'
             {
             match("this"); 
 
@@ -1826,8 +1826,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__100;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:82:8: ( 'throw' )
-            // src/main/com/kitcode/Java.g:82:10: 'throw'
+            // Java.g:82:8: ( 'throw' )
+            // Java.g:82:10: 'throw'
             {
             match("throw"); 
 
@@ -1849,8 +1849,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__101;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:83:8: ( 'throws' )
-            // src/main/com/kitcode/Java.g:83:10: 'throws'
+            // Java.g:83:8: ( 'throws' )
+            // Java.g:83:10: 'throws'
             {
             match("throws"); 
 
@@ -1872,8 +1872,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__102;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:84:8: ( 'transient' )
-            // src/main/com/kitcode/Java.g:84:10: 'transient'
+            // Java.g:84:8: ( 'transient' )
+            // Java.g:84:10: 'transient'
             {
             match("transient"); 
 
@@ -1895,8 +1895,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__103;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:85:8: ( 'true' )
-            // src/main/com/kitcode/Java.g:85:10: 'true'
+            // Java.g:85:8: ( 'true' )
+            // Java.g:85:10: 'true'
             {
             match("true"); 
 
@@ -1918,8 +1918,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__104;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:86:8: ( 'try' )
-            // src/main/com/kitcode/Java.g:86:10: 'try'
+            // Java.g:86:8: ( 'try' )
+            // Java.g:86:10: 'try'
             {
             match("try"); 
 
@@ -1941,8 +1941,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__105;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:87:8: ( 'void' )
-            // src/main/com/kitcode/Java.g:87:10: 'void'
+            // Java.g:87:8: ( 'void' )
+            // Java.g:87:10: 'void'
             {
             match("void"); 
 
@@ -1964,8 +1964,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__106;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:88:8: ( 'volatile' )
-            // src/main/com/kitcode/Java.g:88:10: 'volatile'
+            // Java.g:88:8: ( 'volatile' )
+            // Java.g:88:10: 'volatile'
             {
             match("volatile"); 
 
@@ -1987,8 +1987,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__107;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:89:8: ( 'while' )
-            // src/main/com/kitcode/Java.g:89:10: 'while'
+            // Java.g:89:8: ( 'while' )
+            // Java.g:89:10: 'while'
             {
             match("while"); 
 
@@ -2010,8 +2010,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__108;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:90:8: ( '{' )
-            // src/main/com/kitcode/Java.g:90:10: '{'
+            // Java.g:90:8: ( '{' )
+            // Java.g:90:10: '{'
             {
             match('{'); 
 
@@ -2031,8 +2031,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__109;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:91:8: ( '|' )
-            // src/main/com/kitcode/Java.g:91:10: '|'
+            // Java.g:91:8: ( '|' )
+            // Java.g:91:10: '|'
             {
             match('|'); 
 
@@ -2052,8 +2052,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__110;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:92:8: ( '|=' )
-            // src/main/com/kitcode/Java.g:92:10: '|='
+            // Java.g:92:8: ( '|=' )
+            // Java.g:92:10: '|='
             {
             match("|="); 
 
@@ -2075,8 +2075,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__111;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:93:8: ( '||' )
-            // src/main/com/kitcode/Java.g:93:10: '||'
+            // Java.g:93:8: ( '||' )
+            // Java.g:93:10: '||'
             {
             match("||"); 
 
@@ -2098,8 +2098,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__112;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:94:8: ( '}' )
-            // src/main/com/kitcode/Java.g:94:10: '}'
+            // Java.g:94:8: ( '}' )
+            // Java.g:94:10: '}'
             {
             match('}'); 
 
@@ -2119,8 +2119,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = T__113;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:95:8: ( '~' )
-            // src/main/com/kitcode/Java.g:95:10: '~'
+            // Java.g:95:8: ( '~' )
+            // Java.g:95:10: '~'
             {
             match('~'); 
 
@@ -2140,8 +2140,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = HexLiteral;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:911:12: ( '0' ( 'x' | 'X' ) ( HexDigit )+ ( IntegerTypeSuffix )? )
-            // src/main/com/kitcode/Java.g:911:14: '0' ( 'x' | 'X' ) ( HexDigit )+ ( IntegerTypeSuffix )?
+            // Java.g:911:12: ( '0' ( 'x' | 'X' ) ( HexDigit )+ ( IntegerTypeSuffix )? )
+            // Java.g:911:14: '0' ( 'x' | 'X' ) ( HexDigit )+ ( IntegerTypeSuffix )?
             {
             match('0'); 
 
@@ -2155,7 +2155,7 @@ public class JavaLexer extends Lexer {
             }
 
 
-            // src/main/com/kitcode/Java.g:911:28: ( HexDigit )+
+            // Java.g:911:28: ( HexDigit )+
             int cnt1=0;
             loop1:
             do {
@@ -2169,7 +2169,7 @@ public class JavaLexer extends Lexer {
 
                 switch (alt1) {
             	case 1 :
-            	    // src/main/com/kitcode/Java.g:
+            	    // Java.g:
             	    {
             	    if ( (input.LA(1) >= '0' && input.LA(1) <= '9')||(input.LA(1) >= 'A' && input.LA(1) <= 'F')||(input.LA(1) >= 'a' && input.LA(1) <= 'f') ) {
             	        input.consume();
@@ -2194,7 +2194,7 @@ public class JavaLexer extends Lexer {
             } while (true);
 
 
-            // src/main/com/kitcode/Java.g:911:38: ( IntegerTypeSuffix )?
+            // Java.g:911:38: ( IntegerTypeSuffix )?
             int alt2=2;
             int LA2_0 = input.LA(1);
 
@@ -2203,7 +2203,7 @@ public class JavaLexer extends Lexer {
             }
             switch (alt2) {
                 case 1 :
-                    // src/main/com/kitcode/Java.g:
+                    // Java.g:
                     {
                     if ( input.LA(1)=='L'||input.LA(1)=='l' ) {
                         input.consume();
@@ -2237,10 +2237,10 @@ public class JavaLexer extends Lexer {
         try {
             int _type = DecimalLiteral;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:913:16: ( ( '0' | '1' .. '9' ( '0' .. '9' )* ) ( IntegerTypeSuffix )? )
-            // src/main/com/kitcode/Java.g:913:18: ( '0' | '1' .. '9' ( '0' .. '9' )* ) ( IntegerTypeSuffix )?
+            // Java.g:913:16: ( ( '0' | '1' .. '9' ( '0' .. '9' )* ) ( IntegerTypeSuffix )? )
+            // Java.g:913:18: ( '0' | '1' .. '9' ( '0' .. '9' )* ) ( IntegerTypeSuffix )?
             {
-            // src/main/com/kitcode/Java.g:913:18: ( '0' | '1' .. '9' ( '0' .. '9' )* )
+            // Java.g:913:18: ( '0' | '1' .. '9' ( '0' .. '9' )* )
             int alt4=2;
             int LA4_0 = input.LA(1);
 
@@ -2259,18 +2259,18 @@ public class JavaLexer extends Lexer {
             }
             switch (alt4) {
                 case 1 :
-                    // src/main/com/kitcode/Java.g:913:19: '0'
+                    // Java.g:913:19: '0'
                     {
                     match('0'); 
 
                     }
                     break;
                 case 2 :
-                    // src/main/com/kitcode/Java.g:913:25: '1' .. '9' ( '0' .. '9' )*
+                    // Java.g:913:25: '1' .. '9' ( '0' .. '9' )*
                     {
                     matchRange('1','9'); 
 
-                    // src/main/com/kitcode/Java.g:913:34: ( '0' .. '9' )*
+                    // Java.g:913:34: ( '0' .. '9' )*
                     loop3:
                     do {
                         int alt3=2;
@@ -2283,7 +2283,7 @@ public class JavaLexer extends Lexer {
 
                         switch (alt3) {
                     	case 1 :
-                    	    // src/main/com/kitcode/Java.g:
+                    	    // Java.g:
                     	    {
                     	    if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
                     	        input.consume();
@@ -2310,7 +2310,7 @@ public class JavaLexer extends Lexer {
             }
 
 
-            // src/main/com/kitcode/Java.g:913:45: ( IntegerTypeSuffix )?
+            // Java.g:913:45: ( IntegerTypeSuffix )?
             int alt5=2;
             int LA5_0 = input.LA(1);
 
@@ -2319,7 +2319,7 @@ public class JavaLexer extends Lexer {
             }
             switch (alt5) {
                 case 1 :
-                    // src/main/com/kitcode/Java.g:
+                    // Java.g:
                     {
                     if ( input.LA(1)=='L'||input.LA(1)=='l' ) {
                         input.consume();
@@ -2353,12 +2353,12 @@ public class JavaLexer extends Lexer {
         try {
             int _type = OctalLiteral;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:915:14: ( '0' ( '0' .. '7' )+ ( IntegerTypeSuffix )? )
-            // src/main/com/kitcode/Java.g:915:16: '0' ( '0' .. '7' )+ ( IntegerTypeSuffix )?
+            // Java.g:915:14: ( '0' ( '0' .. '7' )+ ( IntegerTypeSuffix )? )
+            // Java.g:915:16: '0' ( '0' .. '7' )+ ( IntegerTypeSuffix )?
             {
             match('0'); 
 
-            // src/main/com/kitcode/Java.g:915:20: ( '0' .. '7' )+
+            // Java.g:915:20: ( '0' .. '7' )+
             int cnt6=0;
             loop6:
             do {
@@ -2372,7 +2372,7 @@ public class JavaLexer extends Lexer {
 
                 switch (alt6) {
             	case 1 :
-            	    // src/main/com/kitcode/Java.g:
+            	    // Java.g:
             	    {
             	    if ( (input.LA(1) >= '0' && input.LA(1) <= '7') ) {
             	        input.consume();
@@ -2397,7 +2397,7 @@ public class JavaLexer extends Lexer {
             } while (true);
 
 
-            // src/main/com/kitcode/Java.g:915:32: ( IntegerTypeSuffix )?
+            // Java.g:915:32: ( IntegerTypeSuffix )?
             int alt7=2;
             int LA7_0 = input.LA(1);
 
@@ -2406,7 +2406,7 @@ public class JavaLexer extends Lexer {
             }
             switch (alt7) {
                 case 1 :
-                    // src/main/com/kitcode/Java.g:
+                    // Java.g:
                     {
                     if ( input.LA(1)=='L'||input.LA(1)=='l' ) {
                         input.consume();
@@ -2438,8 +2438,8 @@ public class JavaLexer extends Lexer {
     // $ANTLR start "HexDigit"
     public final void mHexDigit() throws RecognitionException {
         try {
-            // src/main/com/kitcode/Java.g:919:10: ( ( '0' .. '9' | 'a' .. 'f' | 'A' .. 'F' ) )
-            // src/main/com/kitcode/Java.g:
+            // Java.g:919:10: ( ( '0' .. '9' | 'a' .. 'f' | 'A' .. 'F' ) )
+            // Java.g:
             {
             if ( (input.LA(1) >= '0' && input.LA(1) <= '9')||(input.LA(1) >= 'A' && input.LA(1) <= 'F')||(input.LA(1) >= 'a' && input.LA(1) <= 'f') ) {
                 input.consume();
@@ -2464,8 +2464,8 @@ public class JavaLexer extends Lexer {
     // $ANTLR start "IntegerTypeSuffix"
     public final void mIntegerTypeSuffix() throws RecognitionException {
         try {
-            // src/main/com/kitcode/Java.g:922:19: ( ( 'l' | 'L' ) )
-            // src/main/com/kitcode/Java.g:
+            // Java.g:922:19: ( ( 'l' | 'L' ) )
+            // Java.g:
             {
             if ( input.LA(1)=='L'||input.LA(1)=='l' ) {
                 input.consume();
@@ -2492,14 +2492,14 @@ public class JavaLexer extends Lexer {
         try {
             int _type = FloatingPointLiteral;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:924:5: ( ( '0' .. '9' )+ '.' ( '0' .. '9' )* ( Exponent )? ( FloatTypeSuffix )? | '.' ( '0' .. '9' )+ ( Exponent )? ( FloatTypeSuffix )? | ( '0' .. '9' )+ Exponent ( FloatTypeSuffix )? | ( '0' .. '9' )+ FloatTypeSuffix )
+            // Java.g:924:5: ( ( '0' .. '9' )+ '.' ( '0' .. '9' )* ( Exponent )? ( FloatTypeSuffix )? | '.' ( '0' .. '9' )+ ( Exponent )? ( FloatTypeSuffix )? | ( '0' .. '9' )+ Exponent ( FloatTypeSuffix )? | ( '0' .. '9' )+ FloatTypeSuffix )
             int alt18=4;
             alt18 = dfa18.predict(input);
             switch (alt18) {
                 case 1 :
-                    // src/main/com/kitcode/Java.g:924:9: ( '0' .. '9' )+ '.' ( '0' .. '9' )* ( Exponent )? ( FloatTypeSuffix )?
+                    // Java.g:924:9: ( '0' .. '9' )+ '.' ( '0' .. '9' )* ( Exponent )? ( FloatTypeSuffix )?
                     {
-                    // src/main/com/kitcode/Java.g:924:9: ( '0' .. '9' )+
+                    // Java.g:924:9: ( '0' .. '9' )+
                     int cnt8=0;
                     loop8:
                     do {
@@ -2513,7 +2513,7 @@ public class JavaLexer extends Lexer {
 
                         switch (alt8) {
                     	case 1 :
-                    	    // src/main/com/kitcode/Java.g:
+                    	    // Java.g:
                     	    {
                     	    if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
                     	        input.consume();
@@ -2540,7 +2540,7 @@ public class JavaLexer extends Lexer {
 
                     match('.'); 
 
-                    // src/main/com/kitcode/Java.g:924:25: ( '0' .. '9' )*
+                    // Java.g:924:25: ( '0' .. '9' )*
                     loop9:
                     do {
                         int alt9=2;
@@ -2553,7 +2553,7 @@ public class JavaLexer extends Lexer {
 
                         switch (alt9) {
                     	case 1 :
-                    	    // src/main/com/kitcode/Java.g:
+                    	    // Java.g:
                     	    {
                     	    if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
                     	        input.consume();
@@ -2574,7 +2574,7 @@ public class JavaLexer extends Lexer {
                     } while (true);
 
 
-                    // src/main/com/kitcode/Java.g:924:37: ( Exponent )?
+                    // Java.g:924:37: ( Exponent )?
                     int alt10=2;
                     int LA10_0 = input.LA(1);
 
@@ -2583,7 +2583,7 @@ public class JavaLexer extends Lexer {
                     }
                     switch (alt10) {
                         case 1 :
-                            // src/main/com/kitcode/Java.g:924:37: Exponent
+                            // Java.g:924:37: Exponent
                             {
                             mExponent(); 
 
@@ -2594,7 +2594,7 @@ public class JavaLexer extends Lexer {
                     }
 
 
-                    // src/main/com/kitcode/Java.g:924:47: ( FloatTypeSuffix )?
+                    // Java.g:924:47: ( FloatTypeSuffix )?
                     int alt11=2;
                     int LA11_0 = input.LA(1);
 
@@ -2603,7 +2603,7 @@ public class JavaLexer extends Lexer {
                     }
                     switch (alt11) {
                         case 1 :
-                            // src/main/com/kitcode/Java.g:
+                            // Java.g:
                             {
                             if ( input.LA(1)=='D'||input.LA(1)=='F'||input.LA(1)=='d'||input.LA(1)=='f' ) {
                                 input.consume();
@@ -2624,11 +2624,11 @@ public class JavaLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // src/main/com/kitcode/Java.g:925:9: '.' ( '0' .. '9' )+ ( Exponent )? ( FloatTypeSuffix )?
+                    // Java.g:925:9: '.' ( '0' .. '9' )+ ( Exponent )? ( FloatTypeSuffix )?
                     {
                     match('.'); 
 
-                    // src/main/com/kitcode/Java.g:925:13: ( '0' .. '9' )+
+                    // Java.g:925:13: ( '0' .. '9' )+
                     int cnt12=0;
                     loop12:
                     do {
@@ -2642,7 +2642,7 @@ public class JavaLexer extends Lexer {
 
                         switch (alt12) {
                     	case 1 :
-                    	    // src/main/com/kitcode/Java.g:
+                    	    // Java.g:
                     	    {
                     	    if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
                     	        input.consume();
@@ -2667,7 +2667,7 @@ public class JavaLexer extends Lexer {
                     } while (true);
 
 
-                    // src/main/com/kitcode/Java.g:925:25: ( Exponent )?
+                    // Java.g:925:25: ( Exponent )?
                     int alt13=2;
                     int LA13_0 = input.LA(1);
 
@@ -2676,7 +2676,7 @@ public class JavaLexer extends Lexer {
                     }
                     switch (alt13) {
                         case 1 :
-                            // src/main/com/kitcode/Java.g:925:25: Exponent
+                            // Java.g:925:25: Exponent
                             {
                             mExponent(); 
 
@@ -2687,7 +2687,7 @@ public class JavaLexer extends Lexer {
                     }
 
 
-                    // src/main/com/kitcode/Java.g:925:35: ( FloatTypeSuffix )?
+                    // Java.g:925:35: ( FloatTypeSuffix )?
                     int alt14=2;
                     int LA14_0 = input.LA(1);
 
@@ -2696,7 +2696,7 @@ public class JavaLexer extends Lexer {
                     }
                     switch (alt14) {
                         case 1 :
-                            // src/main/com/kitcode/Java.g:
+                            // Java.g:
                             {
                             if ( input.LA(1)=='D'||input.LA(1)=='F'||input.LA(1)=='d'||input.LA(1)=='f' ) {
                                 input.consume();
@@ -2717,9 +2717,9 @@ public class JavaLexer extends Lexer {
                     }
                     break;
                 case 3 :
-                    // src/main/com/kitcode/Java.g:926:9: ( '0' .. '9' )+ Exponent ( FloatTypeSuffix )?
+                    // Java.g:926:9: ( '0' .. '9' )+ Exponent ( FloatTypeSuffix )?
                     {
-                    // src/main/com/kitcode/Java.g:926:9: ( '0' .. '9' )+
+                    // Java.g:926:9: ( '0' .. '9' )+
                     int cnt15=0;
                     loop15:
                     do {
@@ -2733,7 +2733,7 @@ public class JavaLexer extends Lexer {
 
                         switch (alt15) {
                     	case 1 :
-                    	    // src/main/com/kitcode/Java.g:
+                    	    // Java.g:
                     	    {
                     	    if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
                     	        input.consume();
@@ -2761,7 +2761,7 @@ public class JavaLexer extends Lexer {
                     mExponent(); 
 
 
-                    // src/main/com/kitcode/Java.g:926:30: ( FloatTypeSuffix )?
+                    // Java.g:926:30: ( FloatTypeSuffix )?
                     int alt16=2;
                     int LA16_0 = input.LA(1);
 
@@ -2770,7 +2770,7 @@ public class JavaLexer extends Lexer {
                     }
                     switch (alt16) {
                         case 1 :
-                            // src/main/com/kitcode/Java.g:
+                            // Java.g:
                             {
                             if ( input.LA(1)=='D'||input.LA(1)=='F'||input.LA(1)=='d'||input.LA(1)=='f' ) {
                                 input.consume();
@@ -2791,9 +2791,9 @@ public class JavaLexer extends Lexer {
                     }
                     break;
                 case 4 :
-                    // src/main/com/kitcode/Java.g:927:9: ( '0' .. '9' )+ FloatTypeSuffix
+                    // Java.g:927:9: ( '0' .. '9' )+ FloatTypeSuffix
                     {
-                    // src/main/com/kitcode/Java.g:927:9: ( '0' .. '9' )+
+                    // Java.g:927:9: ( '0' .. '9' )+
                     int cnt17=0;
                     loop17:
                     do {
@@ -2807,7 +2807,7 @@ public class JavaLexer extends Lexer {
 
                         switch (alt17) {
                     	case 1 :
-                    	    // src/main/com/kitcode/Java.g:
+                    	    // Java.g:
                     	    {
                     	    if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
                     	        input.consume();
@@ -2851,8 +2851,8 @@ public class JavaLexer extends Lexer {
     // $ANTLR start "Exponent"
     public final void mExponent() throws RecognitionException {
         try {
-            // src/main/com/kitcode/Java.g:932:10: ( ( 'e' | 'E' ) ( '+' | '-' )? ( '0' .. '9' )+ )
-            // src/main/com/kitcode/Java.g:932:12: ( 'e' | 'E' ) ( '+' | '-' )? ( '0' .. '9' )+
+            // Java.g:932:10: ( ( 'e' | 'E' ) ( '+' | '-' )? ( '0' .. '9' )+ )
+            // Java.g:932:12: ( 'e' | 'E' ) ( '+' | '-' )? ( '0' .. '9' )+
             {
             if ( input.LA(1)=='E'||input.LA(1)=='e' ) {
                 input.consume();
@@ -2864,7 +2864,7 @@ public class JavaLexer extends Lexer {
             }
 
 
-            // src/main/com/kitcode/Java.g:932:22: ( '+' | '-' )?
+            // Java.g:932:22: ( '+' | '-' )?
             int alt19=2;
             int LA19_0 = input.LA(1);
 
@@ -2873,7 +2873,7 @@ public class JavaLexer extends Lexer {
             }
             switch (alt19) {
                 case 1 :
-                    // src/main/com/kitcode/Java.g:
+                    // Java.g:
                     {
                     if ( input.LA(1)=='+'||input.LA(1)=='-' ) {
                         input.consume();
@@ -2891,7 +2891,7 @@ public class JavaLexer extends Lexer {
             }
 
 
-            // src/main/com/kitcode/Java.g:932:33: ( '0' .. '9' )+
+            // Java.g:932:33: ( '0' .. '9' )+
             int cnt20=0;
             loop20:
             do {
@@ -2905,7 +2905,7 @@ public class JavaLexer extends Lexer {
 
                 switch (alt20) {
             	case 1 :
-            	    // src/main/com/kitcode/Java.g:
+            	    // Java.g:
             	    {
             	    if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
             	        input.consume();
@@ -2943,8 +2943,8 @@ public class JavaLexer extends Lexer {
     // $ANTLR start "FloatTypeSuffix"
     public final void mFloatTypeSuffix() throws RecognitionException {
         try {
-            // src/main/com/kitcode/Java.g:935:17: ( ( 'f' | 'F' | 'd' | 'D' ) )
-            // src/main/com/kitcode/Java.g:
+            // Java.g:935:17: ( ( 'f' | 'F' | 'd' | 'D' ) )
+            // Java.g:
             {
             if ( input.LA(1)=='D'||input.LA(1)=='F'||input.LA(1)=='d'||input.LA(1)=='f' ) {
                 input.consume();
@@ -2971,12 +2971,12 @@ public class JavaLexer extends Lexer {
         try {
             int _type = CharacterLiteral;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:937:5: ( '\\'' ( EscapeSequence |~ ( '\\'' | '\\\\' ) ) '\\'' )
-            // src/main/com/kitcode/Java.g:937:9: '\\'' ( EscapeSequence |~ ( '\\'' | '\\\\' ) ) '\\''
+            // Java.g:937:5: ( '\\'' ( EscapeSequence |~ ( '\\'' | '\\\\' ) ) '\\'' )
+            // Java.g:937:9: '\\'' ( EscapeSequence |~ ( '\\'' | '\\\\' ) ) '\\''
             {
             match('\''); 
 
-            // src/main/com/kitcode/Java.g:937:14: ( EscapeSequence |~ ( '\\'' | '\\\\' ) )
+            // Java.g:937:14: ( EscapeSequence |~ ( '\\'' | '\\\\' ) )
             int alt21=2;
             int LA21_0 = input.LA(1);
 
@@ -2995,7 +2995,7 @@ public class JavaLexer extends Lexer {
             }
             switch (alt21) {
                 case 1 :
-                    // src/main/com/kitcode/Java.g:937:16: EscapeSequence
+                    // Java.g:937:16: EscapeSequence
                     {
                     mEscapeSequence(); 
 
@@ -3003,7 +3003,7 @@ public class JavaLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // src/main/com/kitcode/Java.g:937:33: ~ ( '\\'' | '\\\\' )
+                    // Java.g:937:33: ~ ( '\\'' | '\\\\' )
                     {
                     if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '&')||(input.LA(1) >= '(' && input.LA(1) <= '[')||(input.LA(1) >= ']' && input.LA(1) <= '\uFFFF') ) {
                         input.consume();
@@ -3039,12 +3039,12 @@ public class JavaLexer extends Lexer {
         try {
             int _type = StringLiteral;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:941:5: ( '\"' ( EscapeSequence |~ ( '\\\\' | '\"' ) )* '\"' )
-            // src/main/com/kitcode/Java.g:941:8: '\"' ( EscapeSequence |~ ( '\\\\' | '\"' ) )* '\"'
+            // Java.g:941:5: ( '\"' ( EscapeSequence |~ ( '\\\\' | '\"' ) )* '\"' )
+            // Java.g:941:8: '\"' ( EscapeSequence |~ ( '\\\\' | '\"' ) )* '\"'
             {
             match('\"'); 
 
-            // src/main/com/kitcode/Java.g:941:12: ( EscapeSequence |~ ( '\\\\' | '\"' ) )*
+            // Java.g:941:12: ( EscapeSequence |~ ( '\\\\' | '\"' ) )*
             loop22:
             do {
                 int alt22=3;
@@ -3060,7 +3060,7 @@ public class JavaLexer extends Lexer {
 
                 switch (alt22) {
             	case 1 :
-            	    // src/main/com/kitcode/Java.g:941:14: EscapeSequence
+            	    // Java.g:941:14: EscapeSequence
             	    {
             	    mEscapeSequence(); 
 
@@ -3068,7 +3068,7 @@ public class JavaLexer extends Lexer {
             	    }
             	    break;
             	case 2 :
-            	    // src/main/com/kitcode/Java.g:941:31: ~ ( '\\\\' | '\"' )
+            	    // Java.g:941:31: ~ ( '\\\\' | '\"' )
             	    {
             	    if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '!')||(input.LA(1) >= '#' && input.LA(1) <= '[')||(input.LA(1) >= ']' && input.LA(1) <= '\uFFFF') ) {
             	        input.consume();
@@ -3105,7 +3105,7 @@ public class JavaLexer extends Lexer {
     // $ANTLR start "EscapeSequence"
     public final void mEscapeSequence() throws RecognitionException {
         try {
-            // src/main/com/kitcode/Java.g:947:5: ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\\\"' | '\\'' | '\\\\' ) | UnicodeEscape | OctalEscape )
+            // Java.g:947:5: ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\\\"' | '\\'' | '\\\\' ) | UnicodeEscape | OctalEscape )
             int alt23=3;
             int LA23_0 = input.LA(1);
 
@@ -3158,7 +3158,7 @@ public class JavaLexer extends Lexer {
             }
             switch (alt23) {
                 case 1 :
-                    // src/main/com/kitcode/Java.g:947:9: '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\\\"' | '\\'' | '\\\\' )
+                    // Java.g:947:9: '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\\\"' | '\\'' | '\\\\' )
                     {
                     match('\\'); 
 
@@ -3175,7 +3175,7 @@ public class JavaLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // src/main/com/kitcode/Java.g:948:9: UnicodeEscape
+                    // Java.g:948:9: UnicodeEscape
                     {
                     mUnicodeEscape(); 
 
@@ -3183,7 +3183,7 @@ public class JavaLexer extends Lexer {
                     }
                     break;
                 case 3 :
-                    // src/main/com/kitcode/Java.g:949:9: OctalEscape
+                    // Java.g:949:9: OctalEscape
                     {
                     mOctalEscape(); 
 
@@ -3203,7 +3203,7 @@ public class JavaLexer extends Lexer {
     // $ANTLR start "OctalEscape"
     public final void mOctalEscape() throws RecognitionException {
         try {
-            // src/main/com/kitcode/Java.g:954:5: ( '\\\\' ( '0' .. '3' ) ( '0' .. '7' ) ( '0' .. '7' ) | '\\\\' ( '0' .. '7' ) ( '0' .. '7' ) | '\\\\' ( '0' .. '7' ) )
+            // Java.g:954:5: ( '\\\\' ( '0' .. '3' ) ( '0' .. '7' ) ( '0' .. '7' ) | '\\\\' ( '0' .. '7' ) ( '0' .. '7' ) | '\\\\' ( '0' .. '7' ) )
             int alt24=3;
             int LA24_0 = input.LA(1);
 
@@ -3254,7 +3254,7 @@ public class JavaLexer extends Lexer {
             }
             switch (alt24) {
                 case 1 :
-                    // src/main/com/kitcode/Java.g:954:9: '\\\\' ( '0' .. '3' ) ( '0' .. '7' ) ( '0' .. '7' )
+                    // Java.g:954:9: '\\\\' ( '0' .. '3' ) ( '0' .. '7' ) ( '0' .. '7' )
                     {
                     match('\\'); 
 
@@ -3291,7 +3291,7 @@ public class JavaLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // src/main/com/kitcode/Java.g:955:9: '\\\\' ( '0' .. '7' ) ( '0' .. '7' )
+                    // Java.g:955:9: '\\\\' ( '0' .. '7' ) ( '0' .. '7' )
                     {
                     match('\\'); 
 
@@ -3318,7 +3318,7 @@ public class JavaLexer extends Lexer {
                     }
                     break;
                 case 3 :
-                    // src/main/com/kitcode/Java.g:956:9: '\\\\' ( '0' .. '7' )
+                    // Java.g:956:9: '\\\\' ( '0' .. '7' )
                     {
                     match('\\'); 
 
@@ -3347,8 +3347,8 @@ public class JavaLexer extends Lexer {
     // $ANTLR start "UnicodeEscape"
     public final void mUnicodeEscape() throws RecognitionException {
         try {
-            // src/main/com/kitcode/Java.g:961:5: ( '\\\\' 'u' HexDigit HexDigit HexDigit HexDigit )
-            // src/main/com/kitcode/Java.g:961:9: '\\\\' 'u' HexDigit HexDigit HexDigit HexDigit
+            // Java.g:961:5: ( '\\\\' 'u' HexDigit HexDigit HexDigit HexDigit )
+            // Java.g:961:9: '\\\\' 'u' HexDigit HexDigit HexDigit HexDigit
             {
             match('\\'); 
 
@@ -3381,8 +3381,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = ENUM;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:963:5: ( 'enum' )
-            // src/main/com/kitcode/Java.g:963:9: 'enum'
+            // Java.g:963:5: ( 'enum' )
+            // Java.g:963:9: 'enum'
             {
             match("enum"); 
 
@@ -3406,8 +3406,8 @@ public class JavaLexer extends Lexer {
         try {
             int _type = ASSERT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:967:5: ( 'assert' )
-            // src/main/com/kitcode/Java.g:967:9: 'assert'
+            // Java.g:967:5: ( 'assert' )
+            // Java.g:967:9: 'assert'
             {
             match("assert"); 
 
@@ -3431,13 +3431,13 @@ public class JavaLexer extends Lexer {
         try {
             int _type = Identifier;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:971:5: ( Letter ( Letter | JavaIDDigit )* )
-            // src/main/com/kitcode/Java.g:971:9: Letter ( Letter | JavaIDDigit )*
+            // Java.g:971:5: ( Letter ( Letter | JavaIDDigit )* )
+            // Java.g:971:9: Letter ( Letter | JavaIDDigit )*
             {
             mLetter(); 
 
 
-            // src/main/com/kitcode/Java.g:971:16: ( Letter | JavaIDDigit )*
+            // Java.g:971:16: ( Letter | JavaIDDigit )*
             loop25:
             do {
                 int alt25=2;
@@ -3450,7 +3450,7 @@ public class JavaLexer extends Lexer {
 
                 switch (alt25) {
             	case 1 :
-            	    // src/main/com/kitcode/Java.g:
+            	    // Java.g:
             	    {
             	    if ( input.LA(1)=='$'||(input.LA(1) >= '0' && input.LA(1) <= '9')||(input.LA(1) >= 'A' && input.LA(1) <= 'Z')||input.LA(1)=='_'||(input.LA(1) >= 'a' && input.LA(1) <= 'z')||(input.LA(1) >= '\u00C0' && input.LA(1) <= '\u00D6')||(input.LA(1) >= '\u00D8' && input.LA(1) <= '\u00F6')||(input.LA(1) >= '\u00F8' && input.LA(1) <= '\u1FFF')||(input.LA(1) >= '\u3040' && input.LA(1) <= '\u318F')||(input.LA(1) >= '\u3300' && input.LA(1) <= '\u337F')||(input.LA(1) >= '\u3400' && input.LA(1) <= '\u3D2D')||(input.LA(1) >= '\u4E00' && input.LA(1) <= '\u9FFF')||(input.LA(1) >= '\uF900' && input.LA(1) <= '\uFAFF') ) {
             	        input.consume();
@@ -3485,8 +3485,8 @@ public class JavaLexer extends Lexer {
     // $ANTLR start "Letter"
     public final void mLetter() throws RecognitionException {
         try {
-            // src/main/com/kitcode/Java.g:983:5: ( '\\u0024' | '\\u0041' .. '\\u005a' | '\\u005f' | '\\u0061' .. '\\u007a' | '\\u00c0' .. '\\u00d6' | '\\u00d8' .. '\\u00f6' | '\\u00f8' .. '\\u00ff' | '\\u0100' .. '\\u1fff' | '\\u3040' .. '\\u318f' | '\\u3300' .. '\\u337f' | '\\u3400' .. '\\u3d2d' | '\\u4e00' .. '\\u9fff' | '\\uf900' .. '\\ufaff' )
-            // src/main/com/kitcode/Java.g:
+            // Java.g:983:5: ( '\\u0024' | '\\u0041' .. '\\u005a' | '\\u005f' | '\\u0061' .. '\\u007a' | '\\u00c0' .. '\\u00d6' | '\\u00d8' .. '\\u00f6' | '\\u00f8' .. '\\u00ff' | '\\u0100' .. '\\u1fff' | '\\u3040' .. '\\u318f' | '\\u3300' .. '\\u337f' | '\\u3400' .. '\\u3d2d' | '\\u4e00' .. '\\u9fff' | '\\uf900' .. '\\ufaff' )
+            // Java.g:
             {
             if ( input.LA(1)=='$'||(input.LA(1) >= 'A' && input.LA(1) <= 'Z')||input.LA(1)=='_'||(input.LA(1) >= 'a' && input.LA(1) <= 'z')||(input.LA(1) >= '\u00C0' && input.LA(1) <= '\u00D6')||(input.LA(1) >= '\u00D8' && input.LA(1) <= '\u00F6')||(input.LA(1) >= '\u00F8' && input.LA(1) <= '\u1FFF')||(input.LA(1) >= '\u3040' && input.LA(1) <= '\u318F')||(input.LA(1) >= '\u3300' && input.LA(1) <= '\u337F')||(input.LA(1) >= '\u3400' && input.LA(1) <= '\u3D2D')||(input.LA(1) >= '\u4E00' && input.LA(1) <= '\u9FFF')||(input.LA(1) >= '\uF900' && input.LA(1) <= '\uFAFF') ) {
                 input.consume();
@@ -3511,8 +3511,8 @@ public class JavaLexer extends Lexer {
     // $ANTLR start "JavaIDDigit"
     public final void mJavaIDDigit() throws RecognitionException {
         try {
-            // src/main/com/kitcode/Java.g:997:5: ( '\\u0030' .. '\\u0039' | '\\u0660' .. '\\u0669' | '\\u06f0' .. '\\u06f9' | '\\u0966' .. '\\u096f' | '\\u09e6' .. '\\u09ef' | '\\u0a66' .. '\\u0a6f' | '\\u0ae6' .. '\\u0aef' | '\\u0b66' .. '\\u0b6f' | '\\u0be7' .. '\\u0bef' | '\\u0c66' .. '\\u0c6f' | '\\u0ce6' .. '\\u0cef' | '\\u0d66' .. '\\u0d6f' | '\\u0e50' .. '\\u0e59' | '\\u0ed0' .. '\\u0ed9' | '\\u1040' .. '\\u1049' )
-            // src/main/com/kitcode/Java.g:
+            // Java.g:997:5: ( '\\u0030' .. '\\u0039' | '\\u0660' .. '\\u0669' | '\\u06f0' .. '\\u06f9' | '\\u0966' .. '\\u096f' | '\\u09e6' .. '\\u09ef' | '\\u0a66' .. '\\u0a6f' | '\\u0ae6' .. '\\u0aef' | '\\u0b66' .. '\\u0b6f' | '\\u0be7' .. '\\u0bef' | '\\u0c66' .. '\\u0c6f' | '\\u0ce6' .. '\\u0cef' | '\\u0d66' .. '\\u0d6f' | '\\u0e50' .. '\\u0e59' | '\\u0ed0' .. '\\u0ed9' | '\\u1040' .. '\\u1049' )
+            // Java.g:
             {
             if ( (input.LA(1) >= '0' && input.LA(1) <= '9')||(input.LA(1) >= '\u0660' && input.LA(1) <= '\u0669')||(input.LA(1) >= '\u06F0' && input.LA(1) <= '\u06F9')||(input.LA(1) >= '\u0966' && input.LA(1) <= '\u096F')||(input.LA(1) >= '\u09E6' && input.LA(1) <= '\u09EF')||(input.LA(1) >= '\u0A66' && input.LA(1) <= '\u0A6F')||(input.LA(1) >= '\u0AE6' && input.LA(1) <= '\u0AEF')||(input.LA(1) >= '\u0B66' && input.LA(1) <= '\u0B6F')||(input.LA(1) >= '\u0BE7' && input.LA(1) <= '\u0BEF')||(input.LA(1) >= '\u0C66' && input.LA(1) <= '\u0C6F')||(input.LA(1) >= '\u0CE6' && input.LA(1) <= '\u0CEF')||(input.LA(1) >= '\u0D66' && input.LA(1) <= '\u0D6F')||(input.LA(1) >= '\u0E50' && input.LA(1) <= '\u0E59')||(input.LA(1) >= '\u0ED0' && input.LA(1) <= '\u0ED9')||(input.LA(1) >= '\u1040' && input.LA(1) <= '\u1049') ) {
                 input.consume();
@@ -3539,10 +3539,10 @@ public class JavaLexer extends Lexer {
         try {
             int _type = WS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:1013:5: ( ( ' ' | '\\r' | '\\t' | '\\u000C' | '\\n' )+ )
-            // src/main/com/kitcode/Java.g:1013:8: ( ' ' | '\\r' | '\\t' | '\\u000C' | '\\n' )+
+            // Java.g:1013:5: ( ( ' ' | '\\r' | '\\t' | '\\u000C' | '\\n' )+ )
+            // Java.g:1013:8: ( ' ' | '\\r' | '\\t' | '\\u000C' | '\\n' )+
             {
-            // src/main/com/kitcode/Java.g:1013:8: ( ' ' | '\\r' | '\\t' | '\\u000C' | '\\n' )+
+            // Java.g:1013:8: ( ' ' | '\\r' | '\\t' | '\\u000C' | '\\n' )+
             int cnt26=0;
             loop26:
             do {
@@ -3556,7 +3556,7 @@ public class JavaLexer extends Lexer {
 
                 switch (alt26) {
             	case 1 :
-            	    // src/main/com/kitcode/Java.g:
+            	    // Java.g:
             	    {
             	    if ( (input.LA(1) >= '\t' && input.LA(1) <= '\n')||(input.LA(1) >= '\f' && input.LA(1) <= '\r')||input.LA(1)==' ' ) {
             	        input.consume();
@@ -3599,14 +3599,14 @@ public class JavaLexer extends Lexer {
         try {
             int _type = COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:1017:5: ( '/*' ( options {greedy=false; } : . )* '*/' )
-            // src/main/com/kitcode/Java.g:1017:9: '/*' ( options {greedy=false; } : . )* '*/'
+            // Java.g:1017:5: ( '/*' ( options {greedy=false; } : . )* '*/' )
+            // Java.g:1017:9: '/*' ( options {greedy=false; } : . )* '*/'
             {
             match("/*"); 
 
 
 
-            // src/main/com/kitcode/Java.g:1017:14: ( options {greedy=false; } : . )*
+            // Java.g:1017:14: ( options {greedy=false; } : . )*
             loop27:
             do {
                 int alt27=2;
@@ -3631,7 +3631,7 @@ public class JavaLexer extends Lexer {
 
                 switch (alt27) {
             	case 1 :
-            	    // src/main/com/kitcode/Java.g:1017:42: .
+            	    // Java.g:1017:42: .
             	    {
             	    matchAny(); 
 
@@ -3666,14 +3666,14 @@ public class JavaLexer extends Lexer {
         try {
             int _type = LINE_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // src/main/com/kitcode/Java.g:1021:5: ( '//' (~ ( '\\n' | '\\r' ) )* ( '\\r' )? '\\n' )
-            // src/main/com/kitcode/Java.g:1021:7: '//' (~ ( '\\n' | '\\r' ) )* ( '\\r' )? '\\n'
+            // Java.g:1021:5: ( '//' (~ ( '\\n' | '\\r' ) )* ( '\\r' )? '\\n' )
+            // Java.g:1021:7: '//' (~ ( '\\n' | '\\r' ) )* ( '\\r' )? '\\n'
             {
             match("//"); 
 
 
 
-            // src/main/com/kitcode/Java.g:1021:12: (~ ( '\\n' | '\\r' ) )*
+            // Java.g:1021:12: (~ ( '\\n' | '\\r' ) )*
             loop28:
             do {
                 int alt28=2;
@@ -3686,7 +3686,7 @@ public class JavaLexer extends Lexer {
 
                 switch (alt28) {
             	case 1 :
-            	    // src/main/com/kitcode/Java.g:
+            	    // Java.g:
             	    {
             	    if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '\t')||(input.LA(1) >= '\u000B' && input.LA(1) <= '\f')||(input.LA(1) >= '\u000E' && input.LA(1) <= '\uFFFF') ) {
             	        input.consume();
@@ -3707,7 +3707,7 @@ public class JavaLexer extends Lexer {
             } while (true);
 
 
-            // src/main/com/kitcode/Java.g:1021:26: ( '\\r' )?
+            // Java.g:1021:26: ( '\\r' )?
             int alt29=2;
             int LA29_0 = input.LA(1);
 
@@ -3716,7 +3716,7 @@ public class JavaLexer extends Lexer {
             }
             switch (alt29) {
                 case 1 :
-                    // src/main/com/kitcode/Java.g:1021:26: '\\r'
+                    // Java.g:1021:26: '\\r'
                     {
                     match('\r'); 
 
@@ -3742,12 +3742,12 @@ public class JavaLexer extends Lexer {
     // $ANTLR end "LINE_COMMENT"
 
     public void mTokens() throws RecognitionException {
-        // src/main/com/kitcode/Java.g:1:8: ( T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | T__37 | T__38 | T__39 | T__40 | T__41 | T__42 | T__43 | T__44 | T__45 | T__46 | T__47 | T__48 | T__49 | T__50 | T__51 | T__52 | T__53 | T__54 | T__55 | T__56 | T__57 | T__58 | T__59 | T__60 | T__61 | T__62 | T__63 | T__64 | T__65 | T__66 | T__67 | T__68 | T__69 | T__70 | T__71 | T__72 | T__73 | T__74 | T__75 | T__76 | T__77 | T__78 | T__79 | T__80 | T__81 | T__82 | T__83 | T__84 | T__85 | T__86 | T__87 | T__88 | T__89 | T__90 | T__91 | T__92 | T__93 | T__94 | T__95 | T__96 | T__97 | T__98 | T__99 | T__100 | T__101 | T__102 | T__103 | T__104 | T__105 | T__106 | T__107 | T__108 | T__109 | T__110 | T__111 | T__112 | T__113 | HexLiteral | DecimalLiteral | OctalLiteral | FloatingPointLiteral | CharacterLiteral | StringLiteral | ENUM | ASSERT | Identifier | WS | COMMENT | LINE_COMMENT )
+        // Java.g:1:8: ( T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | T__37 | T__38 | T__39 | T__40 | T__41 | T__42 | T__43 | T__44 | T__45 | T__46 | T__47 | T__48 | T__49 | T__50 | T__51 | T__52 | T__53 | T__54 | T__55 | T__56 | T__57 | T__58 | T__59 | T__60 | T__61 | T__62 | T__63 | T__64 | T__65 | T__66 | T__67 | T__68 | T__69 | T__70 | T__71 | T__72 | T__73 | T__74 | T__75 | T__76 | T__77 | T__78 | T__79 | T__80 | T__81 | T__82 | T__83 | T__84 | T__85 | T__86 | T__87 | T__88 | T__89 | T__90 | T__91 | T__92 | T__93 | T__94 | T__95 | T__96 | T__97 | T__98 | T__99 | T__100 | T__101 | T__102 | T__103 | T__104 | T__105 | T__106 | T__107 | T__108 | T__109 | T__110 | T__111 | T__112 | T__113 | HexLiteral | DecimalLiteral | OctalLiteral | FloatingPointLiteral | CharacterLiteral | StringLiteral | ENUM | ASSERT | Identifier | WS | COMMENT | LINE_COMMENT )
         int alt30=101;
         alt30 = dfa30.predict(input);
         switch (alt30) {
             case 1 :
-                // src/main/com/kitcode/Java.g:1:10: T__25
+                // Java.g:1:10: T__25
                 {
                 mT__25(); 
 
@@ -3755,7 +3755,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 2 :
-                // src/main/com/kitcode/Java.g:1:16: T__26
+                // Java.g:1:16: T__26
                 {
                 mT__26(); 
 
@@ -3763,7 +3763,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 3 :
-                // src/main/com/kitcode/Java.g:1:22: T__27
+                // Java.g:1:22: T__27
                 {
                 mT__27(); 
 
@@ -3771,7 +3771,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 4 :
-                // src/main/com/kitcode/Java.g:1:28: T__28
+                // Java.g:1:28: T__28
                 {
                 mT__28(); 
 
@@ -3779,7 +3779,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 5 :
-                // src/main/com/kitcode/Java.g:1:34: T__29
+                // Java.g:1:34: T__29
                 {
                 mT__29(); 
 
@@ -3787,7 +3787,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 6 :
-                // src/main/com/kitcode/Java.g:1:40: T__30
+                // Java.g:1:40: T__30
                 {
                 mT__30(); 
 
@@ -3795,7 +3795,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 7 :
-                // src/main/com/kitcode/Java.g:1:46: T__31
+                // Java.g:1:46: T__31
                 {
                 mT__31(); 
 
@@ -3803,7 +3803,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 8 :
-                // src/main/com/kitcode/Java.g:1:52: T__32
+                // Java.g:1:52: T__32
                 {
                 mT__32(); 
 
@@ -3811,7 +3811,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 9 :
-                // src/main/com/kitcode/Java.g:1:58: T__33
+                // Java.g:1:58: T__33
                 {
                 mT__33(); 
 
@@ -3819,7 +3819,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 10 :
-                // src/main/com/kitcode/Java.g:1:64: T__34
+                // Java.g:1:64: T__34
                 {
                 mT__34(); 
 
@@ -3827,7 +3827,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 11 :
-                // src/main/com/kitcode/Java.g:1:70: T__35
+                // Java.g:1:70: T__35
                 {
                 mT__35(); 
 
@@ -3835,7 +3835,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 12 :
-                // src/main/com/kitcode/Java.g:1:76: T__36
+                // Java.g:1:76: T__36
                 {
                 mT__36(); 
 
@@ -3843,7 +3843,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 13 :
-                // src/main/com/kitcode/Java.g:1:82: T__37
+                // Java.g:1:82: T__37
                 {
                 mT__37(); 
 
@@ -3851,7 +3851,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 14 :
-                // src/main/com/kitcode/Java.g:1:88: T__38
+                // Java.g:1:88: T__38
                 {
                 mT__38(); 
 
@@ -3859,7 +3859,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 15 :
-                // src/main/com/kitcode/Java.g:1:94: T__39
+                // Java.g:1:94: T__39
                 {
                 mT__39(); 
 
@@ -3867,7 +3867,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 16 :
-                // src/main/com/kitcode/Java.g:1:100: T__40
+                // Java.g:1:100: T__40
                 {
                 mT__40(); 
 
@@ -3875,7 +3875,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 17 :
-                // src/main/com/kitcode/Java.g:1:106: T__41
+                // Java.g:1:106: T__41
                 {
                 mT__41(); 
 
@@ -3883,7 +3883,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 18 :
-                // src/main/com/kitcode/Java.g:1:112: T__42
+                // Java.g:1:112: T__42
                 {
                 mT__42(); 
 
@@ -3891,7 +3891,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 19 :
-                // src/main/com/kitcode/Java.g:1:118: T__43
+                // Java.g:1:118: T__43
                 {
                 mT__43(); 
 
@@ -3899,7 +3899,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 20 :
-                // src/main/com/kitcode/Java.g:1:124: T__44
+                // Java.g:1:124: T__44
                 {
                 mT__44(); 
 
@@ -3907,7 +3907,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 21 :
-                // src/main/com/kitcode/Java.g:1:130: T__45
+                // Java.g:1:130: T__45
                 {
                 mT__45(); 
 
@@ -3915,7 +3915,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 22 :
-                // src/main/com/kitcode/Java.g:1:136: T__46
+                // Java.g:1:136: T__46
                 {
                 mT__46(); 
 
@@ -3923,7 +3923,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 23 :
-                // src/main/com/kitcode/Java.g:1:142: T__47
+                // Java.g:1:142: T__47
                 {
                 mT__47(); 
 
@@ -3931,7 +3931,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 24 :
-                // src/main/com/kitcode/Java.g:1:148: T__48
+                // Java.g:1:148: T__48
                 {
                 mT__48(); 
 
@@ -3939,7 +3939,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 25 :
-                // src/main/com/kitcode/Java.g:1:154: T__49
+                // Java.g:1:154: T__49
                 {
                 mT__49(); 
 
@@ -3947,7 +3947,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 26 :
-                // src/main/com/kitcode/Java.g:1:160: T__50
+                // Java.g:1:160: T__50
                 {
                 mT__50(); 
 
@@ -3955,7 +3955,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 27 :
-                // src/main/com/kitcode/Java.g:1:166: T__51
+                // Java.g:1:166: T__51
                 {
                 mT__51(); 
 
@@ -3963,7 +3963,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 28 :
-                // src/main/com/kitcode/Java.g:1:172: T__52
+                // Java.g:1:172: T__52
                 {
                 mT__52(); 
 
@@ -3971,7 +3971,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 29 :
-                // src/main/com/kitcode/Java.g:1:178: T__53
+                // Java.g:1:178: T__53
                 {
                 mT__53(); 
 
@@ -3979,7 +3979,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 30 :
-                // src/main/com/kitcode/Java.g:1:184: T__54
+                // Java.g:1:184: T__54
                 {
                 mT__54(); 
 
@@ -3987,7 +3987,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 31 :
-                // src/main/com/kitcode/Java.g:1:190: T__55
+                // Java.g:1:190: T__55
                 {
                 mT__55(); 
 
@@ -3995,7 +3995,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 32 :
-                // src/main/com/kitcode/Java.g:1:196: T__56
+                // Java.g:1:196: T__56
                 {
                 mT__56(); 
 
@@ -4003,7 +4003,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 33 :
-                // src/main/com/kitcode/Java.g:1:202: T__57
+                // Java.g:1:202: T__57
                 {
                 mT__57(); 
 
@@ -4011,7 +4011,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 34 :
-                // src/main/com/kitcode/Java.g:1:208: T__58
+                // Java.g:1:208: T__58
                 {
                 mT__58(); 
 
@@ -4019,7 +4019,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 35 :
-                // src/main/com/kitcode/Java.g:1:214: T__59
+                // Java.g:1:214: T__59
                 {
                 mT__59(); 
 
@@ -4027,7 +4027,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 36 :
-                // src/main/com/kitcode/Java.g:1:220: T__60
+                // Java.g:1:220: T__60
                 {
                 mT__60(); 
 
@@ -4035,7 +4035,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 37 :
-                // src/main/com/kitcode/Java.g:1:226: T__61
+                // Java.g:1:226: T__61
                 {
                 mT__61(); 
 
@@ -4043,7 +4043,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 38 :
-                // src/main/com/kitcode/Java.g:1:232: T__62
+                // Java.g:1:232: T__62
                 {
                 mT__62(); 
 
@@ -4051,7 +4051,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 39 :
-                // src/main/com/kitcode/Java.g:1:238: T__63
+                // Java.g:1:238: T__63
                 {
                 mT__63(); 
 
@@ -4059,7 +4059,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 40 :
-                // src/main/com/kitcode/Java.g:1:244: T__64
+                // Java.g:1:244: T__64
                 {
                 mT__64(); 
 
@@ -4067,7 +4067,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 41 :
-                // src/main/com/kitcode/Java.g:1:250: T__65
+                // Java.g:1:250: T__65
                 {
                 mT__65(); 
 
@@ -4075,7 +4075,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 42 :
-                // src/main/com/kitcode/Java.g:1:256: T__66
+                // Java.g:1:256: T__66
                 {
                 mT__66(); 
 
@@ -4083,7 +4083,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 43 :
-                // src/main/com/kitcode/Java.g:1:262: T__67
+                // Java.g:1:262: T__67
                 {
                 mT__67(); 
 
@@ -4091,7 +4091,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 44 :
-                // src/main/com/kitcode/Java.g:1:268: T__68
+                // Java.g:1:268: T__68
                 {
                 mT__68(); 
 
@@ -4099,7 +4099,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 45 :
-                // src/main/com/kitcode/Java.g:1:274: T__69
+                // Java.g:1:274: T__69
                 {
                 mT__69(); 
 
@@ -4107,7 +4107,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 46 :
-                // src/main/com/kitcode/Java.g:1:280: T__70
+                // Java.g:1:280: T__70
                 {
                 mT__70(); 
 
@@ -4115,7 +4115,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 47 :
-                // src/main/com/kitcode/Java.g:1:286: T__71
+                // Java.g:1:286: T__71
                 {
                 mT__71(); 
 
@@ -4123,7 +4123,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 48 :
-                // src/main/com/kitcode/Java.g:1:292: T__72
+                // Java.g:1:292: T__72
                 {
                 mT__72(); 
 
@@ -4131,7 +4131,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 49 :
-                // src/main/com/kitcode/Java.g:1:298: T__73
+                // Java.g:1:298: T__73
                 {
                 mT__73(); 
 
@@ -4139,7 +4139,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 50 :
-                // src/main/com/kitcode/Java.g:1:304: T__74
+                // Java.g:1:304: T__74
                 {
                 mT__74(); 
 
@@ -4147,7 +4147,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 51 :
-                // src/main/com/kitcode/Java.g:1:310: T__75
+                // Java.g:1:310: T__75
                 {
                 mT__75(); 
 
@@ -4155,7 +4155,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 52 :
-                // src/main/com/kitcode/Java.g:1:316: T__76
+                // Java.g:1:316: T__76
                 {
                 mT__76(); 
 
@@ -4163,7 +4163,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 53 :
-                // src/main/com/kitcode/Java.g:1:322: T__77
+                // Java.g:1:322: T__77
                 {
                 mT__77(); 
 
@@ -4171,7 +4171,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 54 :
-                // src/main/com/kitcode/Java.g:1:328: T__78
+                // Java.g:1:328: T__78
                 {
                 mT__78(); 
 
@@ -4179,7 +4179,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 55 :
-                // src/main/com/kitcode/Java.g:1:334: T__79
+                // Java.g:1:334: T__79
                 {
                 mT__79(); 
 
@@ -4187,7 +4187,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 56 :
-                // src/main/com/kitcode/Java.g:1:340: T__80
+                // Java.g:1:340: T__80
                 {
                 mT__80(); 
 
@@ -4195,7 +4195,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 57 :
-                // src/main/com/kitcode/Java.g:1:346: T__81
+                // Java.g:1:346: T__81
                 {
                 mT__81(); 
 
@@ -4203,7 +4203,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 58 :
-                // src/main/com/kitcode/Java.g:1:352: T__82
+                // Java.g:1:352: T__82
                 {
                 mT__82(); 
 
@@ -4211,7 +4211,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 59 :
-                // src/main/com/kitcode/Java.g:1:358: T__83
+                // Java.g:1:358: T__83
                 {
                 mT__83(); 
 
@@ -4219,7 +4219,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 60 :
-                // src/main/com/kitcode/Java.g:1:364: T__84
+                // Java.g:1:364: T__84
                 {
                 mT__84(); 
 
@@ -4227,7 +4227,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 61 :
-                // src/main/com/kitcode/Java.g:1:370: T__85
+                // Java.g:1:370: T__85
                 {
                 mT__85(); 
 
@@ -4235,7 +4235,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 62 :
-                // src/main/com/kitcode/Java.g:1:376: T__86
+                // Java.g:1:376: T__86
                 {
                 mT__86(); 
 
@@ -4243,7 +4243,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 63 :
-                // src/main/com/kitcode/Java.g:1:382: T__87
+                // Java.g:1:382: T__87
                 {
                 mT__87(); 
 
@@ -4251,7 +4251,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 64 :
-                // src/main/com/kitcode/Java.g:1:388: T__88
+                // Java.g:1:388: T__88
                 {
                 mT__88(); 
 
@@ -4259,7 +4259,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 65 :
-                // src/main/com/kitcode/Java.g:1:394: T__89
+                // Java.g:1:394: T__89
                 {
                 mT__89(); 
 
@@ -4267,7 +4267,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 66 :
-                // src/main/com/kitcode/Java.g:1:400: T__90
+                // Java.g:1:400: T__90
                 {
                 mT__90(); 
 
@@ -4275,7 +4275,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 67 :
-                // src/main/com/kitcode/Java.g:1:406: T__91
+                // Java.g:1:406: T__91
                 {
                 mT__91(); 
 
@@ -4283,7 +4283,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 68 :
-                // src/main/com/kitcode/Java.g:1:412: T__92
+                // Java.g:1:412: T__92
                 {
                 mT__92(); 
 
@@ -4291,7 +4291,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 69 :
-                // src/main/com/kitcode/Java.g:1:418: T__93
+                // Java.g:1:418: T__93
                 {
                 mT__93(); 
 
@@ -4299,7 +4299,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 70 :
-                // src/main/com/kitcode/Java.g:1:424: T__94
+                // Java.g:1:424: T__94
                 {
                 mT__94(); 
 
@@ -4307,7 +4307,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 71 :
-                // src/main/com/kitcode/Java.g:1:430: T__95
+                // Java.g:1:430: T__95
                 {
                 mT__95(); 
 
@@ -4315,7 +4315,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 72 :
-                // src/main/com/kitcode/Java.g:1:436: T__96
+                // Java.g:1:436: T__96
                 {
                 mT__96(); 
 
@@ -4323,7 +4323,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 73 :
-                // src/main/com/kitcode/Java.g:1:442: T__97
+                // Java.g:1:442: T__97
                 {
                 mT__97(); 
 
@@ -4331,7 +4331,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 74 :
-                // src/main/com/kitcode/Java.g:1:448: T__98
+                // Java.g:1:448: T__98
                 {
                 mT__98(); 
 
@@ -4339,7 +4339,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 75 :
-                // src/main/com/kitcode/Java.g:1:454: T__99
+                // Java.g:1:454: T__99
                 {
                 mT__99(); 
 
@@ -4347,7 +4347,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 76 :
-                // src/main/com/kitcode/Java.g:1:460: T__100
+                // Java.g:1:460: T__100
                 {
                 mT__100(); 
 
@@ -4355,7 +4355,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 77 :
-                // src/main/com/kitcode/Java.g:1:467: T__101
+                // Java.g:1:467: T__101
                 {
                 mT__101(); 
 
@@ -4363,7 +4363,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 78 :
-                // src/main/com/kitcode/Java.g:1:474: T__102
+                // Java.g:1:474: T__102
                 {
                 mT__102(); 
 
@@ -4371,7 +4371,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 79 :
-                // src/main/com/kitcode/Java.g:1:481: T__103
+                // Java.g:1:481: T__103
                 {
                 mT__103(); 
 
@@ -4379,7 +4379,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 80 :
-                // src/main/com/kitcode/Java.g:1:488: T__104
+                // Java.g:1:488: T__104
                 {
                 mT__104(); 
 
@@ -4387,7 +4387,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 81 :
-                // src/main/com/kitcode/Java.g:1:495: T__105
+                // Java.g:1:495: T__105
                 {
                 mT__105(); 
 
@@ -4395,7 +4395,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 82 :
-                // src/main/com/kitcode/Java.g:1:502: T__106
+                // Java.g:1:502: T__106
                 {
                 mT__106(); 
 
@@ -4403,7 +4403,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 83 :
-                // src/main/com/kitcode/Java.g:1:509: T__107
+                // Java.g:1:509: T__107
                 {
                 mT__107(); 
 
@@ -4411,7 +4411,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 84 :
-                // src/main/com/kitcode/Java.g:1:516: T__108
+                // Java.g:1:516: T__108
                 {
                 mT__108(); 
 
@@ -4419,7 +4419,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 85 :
-                // src/main/com/kitcode/Java.g:1:523: T__109
+                // Java.g:1:523: T__109
                 {
                 mT__109(); 
 
@@ -4427,7 +4427,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 86 :
-                // src/main/com/kitcode/Java.g:1:530: T__110
+                // Java.g:1:530: T__110
                 {
                 mT__110(); 
 
@@ -4435,7 +4435,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 87 :
-                // src/main/com/kitcode/Java.g:1:537: T__111
+                // Java.g:1:537: T__111
                 {
                 mT__111(); 
 
@@ -4443,7 +4443,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 88 :
-                // src/main/com/kitcode/Java.g:1:544: T__112
+                // Java.g:1:544: T__112
                 {
                 mT__112(); 
 
@@ -4451,7 +4451,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 89 :
-                // src/main/com/kitcode/Java.g:1:551: T__113
+                // Java.g:1:551: T__113
                 {
                 mT__113(); 
 
@@ -4459,7 +4459,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 90 :
-                // src/main/com/kitcode/Java.g:1:558: HexLiteral
+                // Java.g:1:558: HexLiteral
                 {
                 mHexLiteral(); 
 
@@ -4467,7 +4467,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 91 :
-                // src/main/com/kitcode/Java.g:1:569: DecimalLiteral
+                // Java.g:1:569: DecimalLiteral
                 {
                 mDecimalLiteral(); 
 
@@ -4475,7 +4475,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 92 :
-                // src/main/com/kitcode/Java.g:1:584: OctalLiteral
+                // Java.g:1:584: OctalLiteral
                 {
                 mOctalLiteral(); 
 
@@ -4483,7 +4483,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 93 :
-                // src/main/com/kitcode/Java.g:1:597: FloatingPointLiteral
+                // Java.g:1:597: FloatingPointLiteral
                 {
                 mFloatingPointLiteral(); 
 
@@ -4491,7 +4491,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 94 :
-                // src/main/com/kitcode/Java.g:1:618: CharacterLiteral
+                // Java.g:1:618: CharacterLiteral
                 {
                 mCharacterLiteral(); 
 
@@ -4499,7 +4499,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 95 :
-                // src/main/com/kitcode/Java.g:1:635: StringLiteral
+                // Java.g:1:635: StringLiteral
                 {
                 mStringLiteral(); 
 
@@ -4507,7 +4507,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 96 :
-                // src/main/com/kitcode/Java.g:1:649: ENUM
+                // Java.g:1:649: ENUM
                 {
                 mENUM(); 
 
@@ -4515,7 +4515,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 97 :
-                // src/main/com/kitcode/Java.g:1:654: ASSERT
+                // Java.g:1:654: ASSERT
                 {
                 mASSERT(); 
 
@@ -4523,7 +4523,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 98 :
-                // src/main/com/kitcode/Java.g:1:661: Identifier
+                // Java.g:1:661: Identifier
                 {
                 mIdentifier(); 
 
@@ -4531,7 +4531,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 99 :
-                // src/main/com/kitcode/Java.g:1:672: WS
+                // Java.g:1:672: WS
                 {
                 mWS(); 
 
@@ -4539,7 +4539,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 100 :
-                // src/main/com/kitcode/Java.g:1:675: COMMENT
+                // Java.g:1:675: COMMENT
                 {
                 mCOMMENT(); 
 
@@ -4547,7 +4547,7 @@ public class JavaLexer extends Lexer {
                 }
                 break;
             case 101 :
-                // src/main/com/kitcode/Java.g:1:683: LINE_COMMENT
+                // Java.g:1:683: LINE_COMMENT
                 {
                 mLINE_COMMENT(); 
 
