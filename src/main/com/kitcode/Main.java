@@ -1,8 +1,11 @@
+package com.kitcode;
+
 import org.antlr.runtime.CommonTokenStream;
 import org.antlr.runtime.ANTLRFileStream;
 import org.antlr.runtime.debug.BlankDebugEventListener;
 
 import java.io.File;
+import java.util.Arrays;
 
 /** Parse a java file or directory of java files using the generated parser
  *  ANTLR builds from java.g
@@ -15,6 +18,7 @@ class Main {
 
 	public static void main(String[] args) {
 		try {
+                    System.out.println(Arrays.toString(args));
 			long start = System.currentTimeMillis();
 			if (args.length > 0 ) {
 				// for each directory/file specified on the command line
