@@ -93,10 +93,10 @@ class Main {
 
 			// Create a parser that reads from the scanner
 			JavaParser parser = null;
-		//	parser = new JavaParser(tokens);
+			parser = new JavaParser(tokens);
 
 			// start parsing at the compilationUnit rule
-		//	parser.compilationUnit();
+			parser.compilationUnit();
 			//System.err.println("finished "+f);
 		}
 		catch (Exception e) {
