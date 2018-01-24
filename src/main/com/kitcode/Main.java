@@ -2,105 +2,41 @@ package com.kitcode;
 
 import org.antlr.runtime.CommonTokenStream;
 import org.antlr.runtime.ANTLRFileStream;
-import org.antlr.runtime.debug.BlankDebugEventListener;
+import org.antlr.runtime.tree.CommonTree;
+import org.antlr.runtime.tree.DOTTreeGenerator;
+import org.antlr.stringtemplate.StringTemplate;
 
-import java.io.File;
-import java.util.Arrays;
 
 /** Parse a java file or directory of java files using the generated parser
  *  ANTLR builds from java.g
  */
 class Main {
-	public static long lexerTime = 0;
-	public static boolean profile = false;
 
 	static JavaLexer lexer;
 
-	public static void main(String[] args) {
-		try {
-                    System.out.println(Arrays.toString(args));
-			long start = System.currentTimeMillis();
-			if (args.length > 0 ) {
-				// for each directory/file specified on the command line
-				for(int i=0; i< args.length;i++) {
-					doFile(new File(args[i])); // parse it
-				}
-			}
-			else {
-				System.err.println("Usage: java Main <directory or file name>");
-			}
-			long stop = System.currentTimeMillis();
-			System.out.println("Lexed in " +lexerTime+ "ms.");
-			System.out.println("Overall parse in " + (stop - start) + "ms.");
-
-			System.out.println("finished parsing OK");
-			if ( profile ) {
-				System.out.println("num decisions "+profiler.numDecisions);
-			}
-		}
-		catch(Exception e) {
-			System.err.println("exception: "+e);
-			e.printStackTrace(System.err);   // so we can get stack trace
-		}
-	}
-
-
-	// This method decides what action to take based on the type of
-	//   file we are looking at
-	public static void doFile(File f)
-							  throws Exception {
-		// If this is a directory, walk each file/dir in that directory
-		if (f.isDirectory()) {
-			String files[] = f.list();
-			for(int i=0; i < files.length; i++)
-				doFile(new File(f, files[i]));
-		}
-
-		// otherwise, if this is a java file, parse it!
-		else if ( ((f.getName().length()>5) &&
-				f.getName().substring(f.getName().length()-5).equals(".java"))
-			|| f.getName().equals("input") )
-		{
-		    System.err.println("parsing "+f.getAbsolutePath());
-			parseFile(f.getAbsolutePath());
-		}
-	}
-
-	static class CountDecisions extends BlankDebugEventListener {
-		public int numDecisions = 0;
-		public void enterDecision(int decisionNumber) {
-			numDecisions++;
-		}
-	}
-	static CountDecisions profiler = new CountDecisions();
-
+	public static void main(String[] args) throws Exception {
+            parseFile("/home/satnam-sandhu/Workstation/ASTGenerator/resource/java/Blabla.java");
+        }
 	// Here's where we do the real work...
-	public static void parseFile(String f)
-								 throws Exception {
+	public static void parseFile(String f)throws Exception {
 		try {
 			// Create a scanner that reads from the input stream passed to us
 			if ( lexer==null ) {
 				lexer = new JavaLexer();
 			}
-			lexer.setCharStream(new ANTLRFileStream(f));
+                        
+                        lexer = new JavaLexer(new ANTLRFileStream(f));
 			CommonTokenStream tokens = new CommonTokenStream(lexer);
-			long start = System.currentTimeMillis();
-			tokens.fill(); // force load
-			long stop = System.currentTimeMillis();
-			lexerTime += stop-start;
-
-			//System.out.println(tokens);
-
-			// Create a parser that reads from the scanner
-			JavaParser parser = null;
-			parser = new JavaParser(tokens);
-
-			// start parsing at the compilationUnit rule
-			parser.compilationUnit();
-			//System.err.println("finished "+f);
+			JavaParser parser = new JavaParser(tokens);
+			//JavaParser.compilationUnit_return returnValue = parser.compilationUnit();
+                        CommonTree tree = (CommonTree)parser.compilationUnit().getTree();
+                        DOTTreeGenerator gen = new DOTTreeGenerator();
+                        StringTemplate st = gen.toDOT(tree);
+                        System.out.println(st);
+                        
 		}
 		catch (Exception e) {
-			System.err.println("parser exception: "+e);
+			//System.err.println("parser exception: "+e);
 			e.printStackTrace();   // so we can get stack trace		
 		}
 	}
