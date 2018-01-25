@@ -50,7 +50,6 @@ public class ASTGenerator {
             for (int i = 0; i < indentation; i++) {
                 System.out.print("  ");
             }
-            System.out.println(ruleName + " -> " + ctx.getText());
 	    LineNum.add(Integer.toString(indentation));
             Type.add(ruleName);
             Content.add(ctx.getText());
