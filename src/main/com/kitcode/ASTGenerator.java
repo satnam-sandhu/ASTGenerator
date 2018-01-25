@@ -21,7 +21,7 @@ public class ASTGenerator {
     static ArrayList<String> Type = new ArrayList<String>();
     static ArrayList<String> Content = new ArrayList<String>();
 
-    public static String readFile() throws IOException {
+    private static String readFile() throws IOException {
         File file = new File("resource/java/Blabla.java");
         byte[] encoded = Files.readAllBytes(file.toPath());
         return new String(encoded, Charset.forName("UTF-8"));
@@ -36,9 +36,8 @@ public class ASTGenerator {
         ParserRuleContext ctx = parser.compilationUnit();
 
         generateAST(ctx, false, 0);
-	System.out.println(LineNum);
-        System.out.println(Type);
-        System.out.println(Content);
+	//System.out.println(LineNum.get(LineNum.size()-1));
+        printAST();
 
     }
 
@@ -47,9 +46,9 @@ public class ASTGenerator {
 
         if (!toBeIgnored) {
             String ruleName = Java8Parser.ruleNames[ctx.getRuleIndex()];
-            for (int i = 0; i < indentation; i++) {
-                System.out.print("  ");
-            }
+            /*for (int i = 0; i < indentation; i++) {
+            System.out.print("  ");
+            }*/
 	    LineNum.add(Integer.toString(indentation));
             Type.add(ruleName);
             Content.add(ctx.getText());
@@ -59,6 +58,20 @@ public class ASTGenerator {
             if (element instanceof RuleContext) {
                 generateAST((RuleContext) element, verbose, indentation + (toBeIgnored ? 0 : 1));
             }
+        }
+    }
+    
+    private static void printAST(){
+        for(int i = 0; i<=Integer.parseInt(LineNum.get(LineNum.size()-1));i++){
+            System.out.print(i+"-->");
+            for(int j = 1; j<LineNum.size();j++){
+                if(i==Integer.parseInt(LineNum.get(j))){
+                    System.out.print(" [ "+Content.get(j)+" ] ");
+                }
+            }
+            System.out.println();
+            System.out.println();
+                
         }
     }
 }
