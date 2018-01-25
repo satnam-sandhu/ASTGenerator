@@ -1,6 +1,8 @@
 package com.kitcode;
 
-import antlr.*;
+import antlr.Java8Lexer;
+import antlr.Java8Parser;
+
 import java.io.File;
 import java.io.IOException;
 
@@ -36,7 +38,7 @@ public class ASTGenerator {
         ParserRuleContext ctx = parser.compilationUnit();
 
         generateAST(ctx, false, 0);
-	//System.out.println(LineNum.get(LineNum.size()-1));
+        System.out.println(LineNum);
         printAST();
 
     }
@@ -46,9 +48,6 @@ public class ASTGenerator {
 
         if (!toBeIgnored) {
             String ruleName = Java8Parser.ruleNames[ctx.getRuleIndex()];
-            /*for (int i = 0; i < indentation; i++) {
-            System.out.print("  ");
-            }*/
 	    LineNum.add(Integer.toString(indentation));
             Type.add(ruleName);
             Content.add(ctx.getText());
@@ -62,16 +61,19 @@ public class ASTGenerator {
     }
     
     private static void printAST(){
-        for(int i = 0; i<=Integer.parseInt(LineNum.get(LineNum.size()-1));i++){
-            System.out.print(i+"-->");
-            for(int j = 1; j<LineNum.size();j++){
-                if(i==Integer.parseInt(LineNum.get(j))){
-                    System.out.print(" [ "+Content.get(j)+" ] ");
-                }
-            }
-            System.out.println();
-            System.out.println();
-                
+        /*for(int i = 0; i<=Integer.parseInt(LineNum.get(LineNum.size()-1));i++){
+        System.out.print(i+"-->");
+        for(int j = 1; j<LineNum.size();j++){
+        if(i==Integer.parseInt(LineNum.get(j))){
+        System.out.print(" [ "+Type.get(j)+" ] ");
+        }
+        }
+        System.out.println();
+        System.out.println();
+        
+        }*/
+        for(int i = 0; i<LineNum.size();i++){
+            System.out.print(Integer.parseInt(Type.get(i))-1+"->"+Type.get(1));
         }
     }
 }
