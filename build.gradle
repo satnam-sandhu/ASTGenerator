@@ -5,7 +5,7 @@ repositories {
 apply plugin: 'java'
 
 dependencies {
-    compile 'org.antlr:antlr3-maven-plugin:3.5.2'
+    compile 'org.antlr:antlr-complete:3.5.2'
 }
 
 sourceSets {

@@ -2,8 +2,6 @@ grammar Java;
 options {
     output=AST;
     backtrack=true;
-    memoize=true;
-    ASTLabelType = CommonTree;
 }
 
 @header {
