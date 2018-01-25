@@ -8,6 +8,10 @@ options {
    package com.kitcode;
 }
 
+@lexer::header {
+   package com.kitcode;
+}
+
 @lexer::members {
   protected boolean enumIsKeyword = true;
   protected boolean assertIsKeyword = true;
