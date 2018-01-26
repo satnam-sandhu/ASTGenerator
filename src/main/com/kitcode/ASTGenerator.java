@@ -70,7 +70,7 @@ public class ASTGenerator {
     
     private static void printLabel(){
         for(int i =0; i<LineNum.size(); i++){
-            System.out.println(LineNum.get(i)+i+"[label=\""+Content.get(i)+"\"]");
+            System.out.println(LineNum.get(i)+i+"[label=\""+Type.get(i)+"\\n "+Content.get(i)+" \"]");
         }
     }
     
