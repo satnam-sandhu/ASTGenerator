@@ -60,10 +60,17 @@ public class ASTGenerator {
     }
     
     private static void printDOT(){
+        printLabel();
         int pos = 0;
         for(int i=1; i<LineNum.size();i++){
             pos=getPos(Integer.parseInt(LineNum.get(i))-1, i);
             System.out.println((Integer.parseInt(LineNum.get(i))-1)+Integer.toString(pos)+"->"+LineNum.get(i)+i);
+        }
+    }
+    
+    private static void printLabel(){
+        for(int i =0; i<LineNum.size(); i++){
+            System.out.println(LineNum.get(i)+i+"[label=\""+Content.get(i)+"\"]");
         }
     }
     
