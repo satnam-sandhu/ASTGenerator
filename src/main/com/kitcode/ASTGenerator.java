@@ -38,7 +38,10 @@ public class ASTGenerator {
         ParserRuleContext ctx = parser.compilationUnit();
 
         generateAST(ctx, false, 0);
+
+	System.out.println("digraph G {");
         printDOT();
+	System.out.println("}");
 
     }
 
