@@ -22,7 +22,7 @@ or you can run it manually:
 ```
 $ java -jar build/libs/ASTGenerator.jar
 ```
-File `Blabla.java` present in resource directory's AST will be printed:
+File `Blabla.java` present in resource directory's AST will be printed in the format of a DOT file:
 
 ```
 digraph G {
