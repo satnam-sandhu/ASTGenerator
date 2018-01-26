@@ -1,8 +1,7 @@
 class fibonacci{
-    public static void main(String args[])throws IOException{
+    public static void main(){
     	int a =0;
-	    for(int i =1; i <10; i++){
-		a++;
-	}
+	int b;
+	b = 1 + 10;
     }
 }

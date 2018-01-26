@@ -83,7 +83,6 @@ digraph G {
 825->927
 }
 ```
-Change the content of `Blabla.java`  to generate your own AST.
 
 Use http://viz-js.com/ to visualize the generated DOT file.
 ![](https://i.imgur.com/ZFt3Cqn.png)
@@ -95,6 +94,9 @@ $ gradle clean build
 ```
 $ java -jar build/libs/ASTGenerator.jar > ast.dot
 ```
+
+Change the content of `Blabla.java`  to generate your own AST.
+
 
 ## Grammar
 
