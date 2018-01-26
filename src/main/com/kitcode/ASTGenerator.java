@@ -38,8 +38,7 @@ public class ASTGenerator {
         ParserRuleContext ctx = parser.compilationUnit();
 
         generateAST(ctx, false, 0);
-        System.out.println(LineNum);
-        printAST();
+        printDOT();
 
     }
 
@@ -60,20 +59,21 @@ public class ASTGenerator {
         }
     }
     
-    private static void printAST(){
-        /*for(int i = 0; i<=Integer.parseInt(LineNum.get(LineNum.size()-1));i++){
-        System.out.print(i+"-->");
-        for(int j = 1; j<LineNum.size();j++){
-        if(i==Integer.parseInt(LineNum.get(j))){
-        System.out.print(" [ "+Type.get(j)+" ] ");
+    private static void printDOT(){
+        int pos = 0;
+        for(int i=1; i<LineNum.size();i++){
+            pos=getPos(Integer.parseInt(LineNum.get(i))-1, i);
+            System.out.println((Integer.parseInt(LineNum.get(i))-1)+Integer.toString(pos)+"->"+LineNum.get(i)+i);
         }
+    }
+    
+    private static int getPos(int n, int limit){
+        int pos = 0;
+        for(int i=0; i<limit;i++){
+            if(Integer.parseInt(LineNum.get(i))==n){
+                pos = i;
+            }
         }
-        System.out.println();
-        System.out.println();
-        
-        }*/
-        for(int i = 0; i<LineNum.size();i++){
-            System.out.print(Integer.parseInt(Type.get(i))-1+"->"+Type.get(1));
-        }
+        return pos;
     }
 }
