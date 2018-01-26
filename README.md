@@ -25,45 +25,76 @@ $ java -jar build/libs/ASTGenerator.jar
 File `Blabla.java` present in resource directory's AST will be printed:
 
 ```
-normalClassDeclaration -> classexample{publicstaticvoidprint(inta){intb=a+1;System.out.println(b);}publicstaticvoidmain(){print(15);}}
-  classBody -> {publicstaticvoidprint(inta){intb=a+1;System.out.println(b);}publicstaticvoidmain(){print(15);}}
-    methodDeclaration -> publicstaticvoidprint(inta){intb=a+1;System.out.println(b);}
-      methodModifier -> public
-      methodModifier -> static
-      methodHeader -> voidprint(inta)
-        result -> void
-        methodDeclarator -> print(inta)
-          formalParameter -> inta
-            integralType -> int
-            variableDeclaratorId -> a
-      block -> {intb=a+1;System.out.println(b);}
-        blockStatements -> intb=a+1;System.out.println(b);
-          localVariableDeclarationStatement -> intb=a+1;
-            localVariableDeclaration -> intb=a+1
-              integralType -> int
-              variableDeclarator -> b=a+1
-                variableDeclaratorId -> b
-                additiveExpression -> a+1
-                  expressionName -> a
-                  literal -> 1
-          expressionStatement -> System.out.println(b);
-            methodInvocation -> System.out.println(b)
-              typeName -> System.out
-                packageOrTypeName -> System
-              expressionName -> b
-    methodDeclaration -> publicstaticvoidmain(){print(15);}
-      methodModifier -> public
-      methodModifier -> static
-      methodHeader -> voidmain()
-        result -> void
-        methodDeclarator -> main()
-      block -> {print(15);}
-        expressionStatement -> print(15);
-          methodInvocation -> print(15)
-            methodName -> print
-            literal -> 15
+digraph G {
+00[label="compilationUnit\n classfibonacci{publicstaticvoidmain(){inta=0;intb;b=1+10;}}<EOF> "]
+11[label="normalClassDeclaration\n classfibonacci{publicstaticvoidmain(){inta=0;intb;b=1+10;}} "]
+22[label="classBody\n {publicstaticvoidmain(){inta=0;intb;b=1+10;}} "]
+33[label="methodDeclaration\n publicstaticvoidmain(){inta=0;intb;b=1+10;} "]
+44[label="methodModifier\n public "]
+45[label="methodModifier\n static "]
+46[label="methodHeader\n voidmain() "]
+57[label="result\n void "]
+58[label="methodDeclarator\n main() "]
+49[label="block\n {inta=0;intb;b=1+10;} "]
+510[label="blockStatements\n inta=0;intb;b=1+10; "]
+611[label="localVariableDeclarationStatement\n inta=0; "]
+712[label="localVariableDeclaration\n inta=0 "]
+813[label="integralType\n int "]
+814[label="variableDeclarator\n a=0 "]
+915[label="variableDeclaratorId\n a "]
+916[label="literal\n 0 "]
+617[label="localVariableDeclarationStatement\n intb; "]
+718[label="localVariableDeclaration\n intb "]
+819[label="integralType\n int "]
+820[label="variableDeclaratorId\n b "]
+621[label="expressionStatement\n b=1+10; "]
+722[label="assignment\n b=1+10 "]
+823[label="expressionName\n b "]
+824[label="assignmentOperator\n = "]
+825[label="additiveExpression\n 1+10 "]
+926[label="literal\n 1 "]
+927[label="literal\n 10 "]
+00->11
+11->22
+22->33
+33->44
+33->45
+33->46
+46->57
+46->58
+33->49
+49->510
+510->611
+611->712
+712->813
+712->814
+814->915
+814->916
+510->617
+617->718
+718->819
+718->820
+510->621
+621->722
+722->823
+722->824
+722->825
+825->926
+825->927
+}
 ```
 Change the content of `Blabla.java`  to generate your own AST.
+
+Use http://viz-js.com/ to visualize the generated DOT file.
+![](https://i.imgur.com/ZFt3Cqn.png)
+
+You can pipe the output in a file by
+```
+$ gradle clean build
+```
+```
+$ java -jar build/libs/ASTGenerator.jar > ast.dot
+```
 
 ## Grammar
 
